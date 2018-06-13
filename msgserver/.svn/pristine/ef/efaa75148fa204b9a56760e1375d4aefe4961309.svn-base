@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>msgserver</alias>
+		<!-- public : 182.254.215.187 -->
+		<!-- test : 115.159.47.200 -->
+		<driver-url>jdbc:mysql://115.159.47.200:3306/bangbang?useUnicode=true&amp;characterEncoding=UTF-8</driver-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="root" />
+			<property name="password" value="maiquan@888888" />
+		</driver-properties>
+		
+		<house-keeping-sleep-time>60000</house-keeping-sleep-time>
+		<maximum-connection-count>50</maximum-connection-count>
+		<minimum-connection-count>5</minimum-connection-count>
+		<prototype-count>5</prototype-count>
+		<simultaneous-build-throttle>5</simultaneous-build-throttle>
+		<house-keeping-test-sql>SELECT 1</house-keeping-test-sql> 
+        <test-before-use>true</test-before-use>
+		
+		<statistics>10m,1d</statistics>
+		<statistics-log-level>ERROR</statistics-log-level>
+	</proxool>
+</something-else-entirely> 

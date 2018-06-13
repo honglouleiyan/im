@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="msgserver" default="deploy" basedir="..">
+
+	<property name="version" value="V1.5.8" />
+	<property name="src" value="${basedir}/src" />
+	<property name="bin" value="${basedir}/bin" />
+	<property name="lib" value="${basedir}/build/lib" />
+	<property name="build" value="${basedir}/build" />
+	<property name="conf" value="${basedir}/conf" />
+
+	<property name="projectName" value="${ant.project.name}" />
+	<property name="outDir" value="F:/${projectName}/${projectName}-${version}" />
+	<property name="outDirBin" value="${outDir}/bin" />
+	<property name="outDirLogs" value="${outDir}/logs" />
+
+	<path id="project.class.path" description="工程引用的第三方jar目录路径">
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="init">
+		<description>初始化目标编译后class临时存放目录</description>
+		<deltree dir="${bin}" />
+		<mkdir dir="${bin}" />
+	</target>
+
+	<target name="initDest">
+		<description>初始化输出的目标文件夹</description>
+		<deltree dir="${outDir}/../" />
+		<mkdir dir="${outDir}" />
+		<mkdir dir="${outDirBin}" />
+		<mkdir dir="${outDirLogs}" />
+	</target>
+
+	<target name="compile" depends="init,initDest">
+		<description>编译src目录下面的所有java文件</description>
+		<javac srcdir="${src}" destdir="${bin}" encoding="utf-8" debug="true">
+			<classpath refid="project.class.path" />
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile">
+		<description>将bin目录下面编译好的class，打包成jar文件</description>
+		<jar destfile="${lib}/${projectName}.jar" baseDir="${bin}" manifest="${build}/MANIFEST.MF">
+		</jar>
+	</target>
+
+	<target name="deploy" depends="jar">
+		<!-- 注意路径问题 -->
+		<!--
+		<copy todir="${outDir}">
+			<fileset dir=".">
+				<exclude name="${src}/**" />
+				<exclude name="${bin}/**" />
+				<exclude name="${build}/MANIFEST.MF" />
+				<exclude name=".settings/**" />
+				<exclude name="*.class" />
+				<exclude name="*.classpath" />
+				<exclude name="*.project" />
+				<exclude name="**/vssver2.scc" />
+				<exclude name="${build}/build.xml" />
+			</fileset>
+		</copy>
+		 -->
+
+		<copy todir="${outDir}/lib">
+			<fileset dir="${lib}" includes="*.jar"></fileset>
+		</copy>
+		<copy todir="${outDir}/conf">
+			<fileset dir="${conf}" includes="**/*.*"></fileset>
+		</copy>
+		
+		<copy todir="${outDir}/bin">
+			<fileset dir="${build}" includes="msgserver.*"></fileset>
+		</copy>
+
+		<delete file="${lib}/${projectName}.jar">
+		</delete>
+		<echo message="打包成功，请从 ${outDir} 路径去拷贝。">
+		</echo>
+	</target>
+</project>

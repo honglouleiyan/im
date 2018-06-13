@@ -1,0 +1,33 @@
+2015-10-16 17:10:07 IM消息,100126断线
+
+POST /v2/im?seq=1CF2BDF7CB8E4F2400000003 HTTP/1.1
+Date: Fri, 16 Oct 2015 09:11:48 GMT
+Content-Length: 972
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7AFC598F1E42478B00000001","user_id":"100037","dst_user_id":["100126"],"type":1003,"message":"bang5304已经完成了任务\u0027871\u0027，请确认","options":{"apply":{"apply_id":600.0,"bang_id":1877.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"755","apply_time":1.44498659E12,"apply_status":2.0,"is_delete":0.0,"create_time":1.44498659E12,"create_user":100037.0,"update_time":1.444986677405E12,"update_user":100037.0},"bang_info":{"bang_id":1877.0,"title":"871","content":"hjjj","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":1.0,"is_delete":0.0,"issue_time":1.444986581E12,"create_time":1.444986581E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.4449866E12,"update_user":100126.0,"images":[]}}}]}
+2015-10-16 17:11:12 IM消息,100126断线
+
+POST /v2/im?seq=1CF2BDF7CB8E4F2400000003 HTTP/1.1
+Date: Fri, 16 Oct 2015 09:11:48 GMT
+Content-Length: 972
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7AFC598F1E42478B00000001","user_id":"100037","dst_user_id":["100126"],"type":1003,"message":"bang5304已经完成了任务\u0027871\u0027，请确认","options":{"apply":{"apply_id":600.0,"bang_id":1877.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"755","apply_time":1.44498659E12,"apply_status":2.0,"is_delete":0.0,"create_time":1.44498659E12,"create_user":100037.0,"update_time":1.444986677405E12,"update_user":100037.0},"bang_info":{"bang_id":1877.0,"title":"871","content":"hjjj","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":1.0,"is_delete":0.0,"issue_time":1.444986581E12,"create_time":1.444986581E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.4449866E12,"update_user":100126.0,"images":[]}}}]}
+2015-10-16 17:14:21 IM消息,100126断线
+
+POST /v2/im?seq=1CF2BDF7CB8E4F240000000D HTTP/1.1
+Date: Fri, 16 Oct 2015 09:16:09 GMT
+Content-Length: 969
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7B7D141F78F14F5100000001","user_id":"100037","dst_user_id":["100126"],"type":1002,"message":"bang5304同意了您对\u0027asf\u0027的申请","options":{"apply":{"apply_id":601.0,"bang_id":1881.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"123","apply_time":1.444986954E12,"apply_status":1.0,"is_delete":0.0,"create_time":1.444986954E12,"create_user":100126.0,"update_time":1.444986960033E12,"update_user":100037.0},"bang_info":{"bang_id":1881.0,"title":"asf","content":"asd","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.444986944E12,"create_time":1.444986944E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.444986960033E12,"update_user":100037.0,"images":[]}}}]}

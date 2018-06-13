@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="lib/javassist-3.7.ga.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen.jar"/>
+	<classpathentry kind="lib" path="lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="lib/jzlib-1.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/ognl-2.7.3.jar"/>
+	<classpathentry kind="lib" path="lib/fastjson-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/mina-core-2.0.9.jar" sourcepath="C:/Users/Administrator/.m2/repository/org/apache/mina/mina-core/2.0.9/mina-core-2.0.9-sources.jar"/>
+	<classpathentry kind="lib" path="lib/mina-example-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-filter-compression-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-http-2.0.9.jar" sourcepath="D:/workspace/minacode/apache-mina-2.0.9-src.zip">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mina-integration-beans-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-jmx-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-ognl-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-xbean-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-statemachine-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/mina-transport-apr-2.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-jdk14-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jedis-2.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/spring-data-redis-1.4.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-broker-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-client-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-console-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-jaas-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-jms-pool-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-kahadb-store-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-openwire-legacy-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-pool-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-protobuf-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-spring-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-web-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/org.springframework.jms-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool2-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-all-5.11.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

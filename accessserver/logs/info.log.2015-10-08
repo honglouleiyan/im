@@ -1,0 +1,679 @@
+2015-10-08 10:23:40 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51cf1d17: startup date [Thu Oct 08 10:23:40 CST 2015]; root of context hierarchy
+ 2015-10-08 10:23:40 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_redis_beans.xml]
+ 2015-10-08 10:23:41 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7cacdd8f: startup date [Thu Oct 08 10:23:41 CST 2015]; root of context hierarchy
+ 2015-10-08 10:23:41 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]
+ 2015-10-08 10:23:41 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService  'taskExecutor'
+ 2015-10-08 10:23:42 WARN [org.springframework.context.support.ClassPathXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'messageListener' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.jihuiduo.netproxy.start.MqConnection.getMqService(MqConnection.java:33)
+	at com.jihuiduo.netproxy.start.SystemInitService.loadMq(SystemInitService.java:71)
+	at com.jihuiduo.netproxy.start.ServerStart.main(ServerStart.java:31)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'messageListener' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 17 more
+2015-10-08 10:23:42 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'taskExecutor'
+ 2015-10-08 10:23:42 ERROR [com.jihuiduo.netproxy.start.ServerStart] 启动消息服务发生错误 : Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'messageListener' is defined
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'messageListener' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.jihuiduo.netproxy.start.MqConnection.getMqService(MqConnection.java:33)
+	at com.jihuiduo.netproxy.start.SystemInitService.loadMq(SystemInitService.java:71)
+	at com.jihuiduo.netproxy.start.ServerStart.main(ServerStart.java:31)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'messageListener' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 17 more
+2015-10-08 10:24:10 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51cf1d17: startup date [Thu Oct 08 10:24:10 CST 2015]; root of context hierarchy
+ 2015-10-08 10:24:10 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_redis_beans.xml]
+ 2015-10-08 10:24:10 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3906173b: startup date [Thu Oct 08 10:24:10 CST 2015]; root of context hierarchy
+ 2015-10-08 10:24:10 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]
+ 2015-10-08 10:24:10 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService  'taskExecutor'
+ 2015-10-08 10:24:10 INFO [org.springframework.context.support.DefaultLifecycleProcessor] Starting beans in phase 2147483647
+ 2015-10-08 10:24:11 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 10:24:11 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 10:24:11
+ 2015-10-08 10:24:11 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:24:12 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:24:42 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:24:43 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:25:13 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:25:14 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:25:44 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:25:45 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:26:15 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:26:16 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:26:46 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:26:47 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:27:17 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:27:18 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:27:26 WARN [org.springframework.jms.listener.DefaultMessageListenerContainer] Execution of JMS message listener failed, and no ErrorHandler has been set.
+ java.lang.IllegalStateException: No message listener specified - see property 'messageListener'
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:505)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:467)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:323)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:261)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1002)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:994)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:896)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-08 10:27:48 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:27:49 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:30:09 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51cf1d17: startup date [Thu Oct 08 10:30:09 CST 2015]; root of context hierarchy
+ 2015-10-08 10:30:09 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_redis_beans.xml]
+ 2015-10-08 10:30:09 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7cacdd8f: startup date [Thu Oct 08 10:30:09 CST 2015]; root of context hierarchy
+ 2015-10-08 10:30:09 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]
+ 2015-10-08 10:30:09 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService  'taskExecutor'
+ 2015-10-08 10:30:09 WARN [org.springframework.context.support.ClassPathXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.jihuiduo.netproxy.start.MqConnection.getMqService(MqConnection.java:33)
+	at com.jihuiduo.netproxy.start.SystemInitService.loadMq(SystemInitService.java:71)
+	at com.jihuiduo.netproxy.start.ServerStart.main(ServerStart.java:31)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1328)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 17 more
+Caused by: java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:249)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:395)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1320)
+	... 23 more
+2015-10-08 10:30:09 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'taskExecutor'
+ 2015-10-08 10:30:09 ERROR [com.jihuiduo.netproxy.start.ServerStart] 启动消息服务发生错误 : Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.jihuiduo.netproxy.start.MqConnection.getMqService(MqConnection.java:33)
+	at com.jihuiduo.netproxy.start.SystemInitService.loadMq(SystemInitService.java:71)
+	at com.jihuiduo.netproxy.start.ServerStart.main(ServerStart.java:31)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1328)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 17 more
+Caused by: java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:249)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:395)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1320)
+	... 23 more
+2015-10-08 10:30:26 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2795a626: startup date [Thu Oct 08 10:30:26 CST 2015]; root of context hierarchy
+ 2015-10-08 10:30:26 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_redis_beans.xml]
+ 2015-10-08 10:30:26 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3906173b: startup date [Thu Oct 08 10:30:26 CST 2015]; root of context hierarchy
+ 2015-10-08 10:30:26 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]
+ 2015-10-08 10:30:26 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService  'taskExecutor'
+ 2015-10-08 10:30:26 WARN [org.springframework.context.support.ClassPathXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.jihuiduo.netproxy.start.MqConnection.getMqService(MqConnection.java:33)
+	at com.jihuiduo.netproxy.start.SystemInitService.loadMq(SystemInitService.java:71)
+	at com.jihuiduo.netproxy.start.ServerStart.main(ServerStart.java:31)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1328)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 17 more
+Caused by: java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:249)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:395)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1320)
+	... 23 more
+2015-10-08 10:30:26 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Shutting down ExecutorService 'taskExecutor'
+ 2015-10-08 10:30:26 ERROR [com.jihuiduo.netproxy.start.ServerStart] 启动消息服务发生错误 : Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmsContainer' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]: Cannot resolve reference to bean 'messageListener' while setting bean property 'messageListener'; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1469)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.jihuiduo.netproxy.start.MqConnection.getMqService(MqConnection.java:33)
+	at com.jihuiduo.netproxy.start.SystemInitService.loadMq(SystemInitService.java:71)
+	at com.jihuiduo.netproxy.start.ServerStart.main(ServerStart.java:31)
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.ydsoft.property.service.impl.ExampleListener] for bean with name 'messageListener' defined in URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]; nested exception is java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1328)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 17 more
+Caused by: java.lang.ClassNotFoundException: com.ydsoft.property.service.impl.ExampleListener
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:249)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:395)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1349)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1320)
+	... 23 more
+2015-10-08 10:31:02 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51cf1d17: startup date [Thu Oct 08 10:31:02 CST 2015]; root of context hierarchy
+ 2015-10-08 10:31:02 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_redis_beans.xml]
+ 2015-10-08 10:31:02 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7cacdd8f: startup date [Thu Oct 08 10:31:02 CST 2015]; root of context hierarchy
+ 2015-10-08 10:31:02 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]
+ 2015-10-08 10:31:02 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService  'taskExecutor'
+ 2015-10-08 10:31:02 INFO [org.springframework.context.support.DefaultLifecycleProcessor] Starting beans in phase 2147483647
+ 2015-10-08 10:31:02 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 10:31:02 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 10:31:02
+ 2015-10-08 10:31:02 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:31:03 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:31:33 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:31:34 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 10:36:13 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51cf1d17: startup date [Thu Oct 08 10:36:13 CST 2015]; root of context hierarchy
+ 2015-10-08 10:36:13 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_redis_beans.xml]
+ 2015-10-08 10:36:13 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3906173b: startup date [Thu Oct 08 10:36:13 CST 2015]; root of context hierarchy
+ 2015-10-08 10:36:13 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from URL [file:D:/workspace/accessserver/conf/spring_activemq.xml]
+ 2015-10-08 10:36:13 INFO [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] Initializing ExecutorService  'taskExecutor'
+ 2015-10-08 10:36:14 INFO [org.springframework.context.support.DefaultLifecycleProcessor] Starting beans in phase 2147483647
+ 2015-10-08 10:36:14 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 10:36:14
+ 2015-10-08 10:36:14 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 10:36:14 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 10:36:15 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 11:03:47 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 11:03:47 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 11:03:47
+ 2015-10-08 11:03:47 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 11:03:48 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 11:04:18 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 11:04:19 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 11:04:49 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 11:04:50 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 11:05:20 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 11:05:21 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 11:15:06 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 11:15:06 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 11:15:06
+ 2015-10-08 11:15:06 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 11:15:08 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 11:15:38 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 11:15:39 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 14:12:49 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 14:12:49 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 14:12:49 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 14:12:49
+ 2015-10-08 14:12:52 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 14:13:22 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 14:13:23 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 14:14:12 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-08 14:14:12 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-08 14:14:12
+ 2015-10-08 14:14:12 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 14:14:13 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 14:14:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-bbe4ebd0a9fb4a9ea6206eaba9855e42
+ 2015-10-08 14:14:43 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 14:14:44 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-08 14:15:14 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-08 14:15:15 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more

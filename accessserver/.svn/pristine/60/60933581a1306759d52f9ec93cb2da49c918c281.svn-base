@@ -1,0 +1,95 @@
+2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-16 17:07:35
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端创建连接session
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] enter sessionOpened
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 连接[192.168.3.3:5222]成功
+ 2015-10-16 17:08:16 ERROR [com.jihuiduo.netproxy.clientim.ClientHanlder] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-16 17:08:16 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端连接断开
+ 2015-10-16 17:08:16 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:08:16 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.bind(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.newHandle(NioSocketConnector.java:249)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.newHandle(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.connect0(AbstractPollingIoConnector.java:338)
+	at org.apache.mina.core.service.AbstractIoConnector.connect(AbstractIoConnector.java:270)
+	at org.apache.mina.core.service.AbstractIoConnector.connect(AbstractIoConnector.java:204)
+	... 2 more
+2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端创建连接session
+ 2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] enter sessionOpened
+ 2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 连接[192.168.3.3:5222]成功
+ 2015-10-16 17:08:55 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-16 17:09:26 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-16 17:10:06 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 用户找不到登录的设备
+ 2015-10-16 17:10:07 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 100126断线
+ 2015-10-16 17:11:12 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 用户找不到登录的设备
+ 2015-10-16 17:11:12 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 100126断线
+ 2015-10-16 17:11:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100126-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-16 17:11:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-16 17:12:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-16 17:13:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-16 17:14:21 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 100126断线
+ 2015-10-16 17:15:04 ERROR [com.jihuiduo.netproxy.clientim.ClientHanlder] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-16 17:15:04 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端连接断开
+ 2015-10-16 17:15:04 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:15:05 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more

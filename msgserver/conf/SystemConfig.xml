@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<!-- REDIS缓存配置信息 -->
+	<redis>
+		<!-- public : 182.254.215.187 -->
+		<!-- test : 115.159.47.200 -->
+		<host>115.159.47.200</host>
+		<port>6379</port>
+		<password>maiquan@888888#</password>
+		<timeout>10000</timeout>
+		<maxActive>1000</maxActive>
+		<!-- 最大能够保持空闲状态的对象数 -->
+		<maxIdle>300</maxIdle>
+		<!-- 超时时间 -->
+		<maxWait>1000</maxWait>
+		<!-- 在borrow一个jedis实例时, 是否提前进行validate操作; 如果为true, 则得到的jedis实例均是可用的 -->
+		<testOnBorrow>true</testOnBorrow>
+		<!-- 在还会给pool时, 是否提前进行validate操作 -->
+		<testOnReturn>true</testOnReturn>
+	</redis>
+
+	<!-- 苹果APNS消息推送服务配置 -->
+	<apns>
+		<!-- 正式环境 -->
+		<host>gateway.push.apple.com</host>
+		<port>2195</port>
+		<certificateName>jihuiduo_push_product.p12</certificateName>
+		<certificatePassword>123</certificatePassword>
+		<!-- 测试环境 -->
+		<testHost>gateway.sandbox.push.apple.com</testHost>
+		<testPort>2195</testPort>
+		<testCertificateName>jihuiduo_push_dev.p12</testCertificateName>
+		<testCertificatePassword>123</testCertificatePassword>
+		<!-- 是否开启测试环境推送 -->
+		<testOn>true</testOn>
+	</apns>
+	
+	<!-- Android JPush消息推送服务配置 -->
+	<jpush>
+		<!-- 正式环境 -->
+		<!-- AppKey -->
+		<appKey>81de1988a5eff344ec9b1b11</appKey>
+		<!-- Master Secret -->
+		<masterSecret>cc5efe4c75647eb2fc9c0eda</masterSecret>
+		<!-- 测试环境 -->
+		<testAppKey>81de1988a5eff344ec9b1b11</testAppKey>
+		<testMasterSecret>cc5efe4c75647eb2fc9c0eda</testMasterSecret>
+		<!-- 是否开启测试环境推送 -->
+		<testOn>true</testOn>
+	</jpush>
+	
+	<!-- 接入服务器组配置信息 -->
+	<accessServers>
+		<!-- ipv6 -->
+		<server weight="1">0:0:0:0:0:0:0:1</server>
+		<!-- ipv4 -->
+		<server weight="1">0.0.0.0</server>
+		<server weight="1">localhost</server>
+		<server weight="1">127.0.0.1</server>
+		<server weight="1">192.168.3.3</server>
+		<server weight="1">192.168.3.4</server>
+		<server weight="1">192.168.3.13</server>
+		<server weight="1">192.168.3.17</server>
+		<server weight="1">192.168.1.206</server>
+		<server weight="1">10.237.228.27</server>
+		<server weight="1">10.105.41.2</server>
+		<server weight="1">115.159.47.200</server>
+		<server weight="1">182.254.215.187</server>
+	</accessServers>
+	
+	<!-- 业务服务器组配置信息 -->
+	<businessServers>
+		<!-- ipv6 -->
+		<server weight="1">0:0:0:0:0:0:0:1</server>
+		<!-- ipv4 -->
+		<server weight="1">0.0.0.0</server>
+		<server weight="1">localhost</server>
+		<server weight="1">127.0.0.1</server>
+		<server weight="1">192.168.3.17</server>
+		<server weight="1">192.168.1.206</server>
+		<server weight="1">10.237.228.27</server>
+		<server weight="1">10.105.41.2</server>
+		<server weight="1">0:0:0:0:0:0:0:1</server>
+		<server weight="1">127.0.0.1</server>
+		<server weight="1">192.168.3.17</server>
+		<server weight="1">192.168.1.206</server>
+		<server weight="1">10.237.228.27</server>
+		<server weight="1">10.105.41.2</server>
+		<server weight="1">115.159.47.200</server>
+		<server weight="1">182.254.215.187</server>
+	</businessServers>
+
+
+
+	<!-- 例子 -->
+	<example>
+		<url><![CDATA[https://api.weixin.qq.com]]></url>
+		<timeout>60000</timeout>
+		<charset>UTF-8</charset>
+	</example>
+
+</system>

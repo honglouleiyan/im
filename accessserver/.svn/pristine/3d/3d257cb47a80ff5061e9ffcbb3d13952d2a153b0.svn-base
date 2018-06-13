@@ -1,0 +1,1638 @@
+2015-10-27 10:45:05 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-27 10:45:05 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-27 10:45:05
+ 2015-10-27 10:45:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100031-60ceb87c7030e3ab33381752842cfb81
+ 2015-10-27 10:45:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 10:45:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 10:45:55 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 10:46:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100205-7e30bddd53b6dda5ad2091853976c964
+ 2015-10-27 10:46:02 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-27 10:46:02 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:65421
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /192.168.6.56:65421 => /192.168.3.4:5333)---
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65421
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 453 remaining : 453 position : 0 capacity : 2048
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 32 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 34 37 3A 35 30 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 37 39 0D 0A 0D 0A 7B 0A 20 20 22 64 65 76 69 63 65 5F 75 69 64 22 20 3A 20 22 30 38 30 65 32 64 37 30 61 35 62 39 35 33 35 35 39 32 30 34 66 39 37 31 36 31 33 30 61 35 33 62 22 2C 0A 20 20 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 20 3A 20 22 30 22 0A 7D
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/device/auth?seq=FAF7685CCC8EAC8100000002 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:47:50 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "080e2d70a5b953559204f9716130a53b",
+  "network_type" : "0"
+}
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/device/auth?seq=FAF7685CCC8EAC8100000002 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:47:50 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "080e2d70a5b953559204f9716130a53b",
+  "network_type" : "0"
+}
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:46:02 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-27 10:46:03 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000002: nio socket, server, /192.168.6.56:65421 => /192.168.3.4:5333)
+ 2015-10-27 10:46:03 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:03 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-27 10:46:03 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Tue, 27 Oct 2015 02:46:03 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"FAF7685CCC8EAC8100000002","rcode":0,"rmsg":"成功"}
+ 2015-10-27 10:46:03 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.56:65421 => /192.168.3.4:5333)
+ 2015-10-27 10:46:03 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:03 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：080e2d70a5b953559204f9716130a53b,session:(0x00000002: nio socket, server, /192.168.6.56:65421 => /192.168.3.4:5333)
+ 2015-10-27 10:46:03 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Tue, 27 Oct 2015 02:46:03 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"FAF7685CCC8EAC8100000002","rcode":0,"rmsg":"成功"}
+ 2015-10-27 10:46:03 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65421
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 2048
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 33 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 34 38 3A 31 37 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000003 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:48:17 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000003 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:48:17 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:46:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000002: nio socket, server, /192.168.6.56:65421 => /192.168.3.4:5333)
+ 2015-10-27 10:46:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/192.168.6.56:65421
+ 2015-10-27 10:46:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-27 10:46:34 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100115
+ 2015-10-27 10:46:34 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 10:46:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 10:46:45 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-27 10:46:45 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:65426
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)---
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 453 remaining : 453 position : 0 capacity : 2048
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 34 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 34 38 3A 33 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 37 39 0D 0A 0D 0A 7B 0A 20 20 22 64 65 76 69 63 65 5F 75 69 64 22 20 3A 20 22 30 38 30 65 32 64 37 30 61 35 62 39 35 33 35 35 39 32 30 34 66 39 37 31 36 31 33 30 61 35 33 62 22 2C 0A 20 20 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 20 3A 20 22 30 22 0A 7D
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/device/auth?seq=FAF7685CCC8EAC8100000004 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:48:33 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "080e2d70a5b953559204f9716130a53b",
+  "network_type" : "0"
+}
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/device/auth?seq=FAF7685CCC8EAC8100000004 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:48:33 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "080e2d70a5b953559204f9716130a53b",
+  "network_type" : "0"
+}
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-27 10:46:45 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:46:45 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:46 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-27 10:46:46 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Tue, 27 Oct 2015 02:46:46 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"FAF7685CCC8EAC8100000004","rcode":0,"rmsg":"成功"}
+ 2015-10-27 10:46:46 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:46:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:46 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：080e2d70a5b953559204f9716130a53b,session:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:46:46 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Tue, 27 Oct 2015 02:46:46 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"FAF7685CCC8EAC8100000004","rcode":0,"rmsg":"成功"}
+ 2015-10-27 10:46:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-27 10:46:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100344-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 2048
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 35 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 34 38 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000005 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:48:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000005 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:48:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:47:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:47:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 1024
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 36 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 34 39 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000006 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:49:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000006 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:49:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:47:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:48:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100344-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 1024
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 37 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 30 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000007 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:50:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000007 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:50:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:48:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:49:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100344-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 38 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 31 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000008 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:51:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000008 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:51:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:49:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:49:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 39 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 31 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000009 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:51:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000009 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:51:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:50:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 41 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 32 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:52:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:52:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:50:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 42 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 33 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:53:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:53:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:51:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:52:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100139-c3de462129ed73606311f26a503edd1d
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 43 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 34 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:54:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:54:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:52:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:52:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 44 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 34 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000D HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:54:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000D HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:54:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:53:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 45 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 35 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:55:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:55:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:53:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:54:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 30 46 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 36 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:56:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000000F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:56:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:54:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:54:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 10:54:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 30 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 37 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000010 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:57:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000010 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:57:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:55:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 31 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 37 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000011 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:57:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000011 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:57:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:56:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:56:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100344-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 32 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 38 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000012 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:58:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000012 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:58:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:56:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 33 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 30 3A 35 39 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000013 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:59:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000013 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 10:59:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:57:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 34 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 30 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000014 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:00:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000014 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:00:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:58:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:58:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 35 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 30 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000015 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:00:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000015 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:00:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:59:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 36 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 31 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000016 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:01:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000016 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:01:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 10:59:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:00:09 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 37 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 32 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000017 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:02:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000017 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:02:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:00:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:00:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 38 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 33 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000018 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:03:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000018 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:03:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:01:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:01:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 39 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 33 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000019 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:03:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000019 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:03:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:02:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 41 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 34 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:04:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:04:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:02:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:03:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100343-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 42 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 35 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:05:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:05:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:03:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:03:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 43 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 36 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:06:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:06:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:04:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:04:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 45 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 36 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:06:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:06:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:05:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:05:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-27 11:05:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100344-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-27 11:05:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100344
+ 2015-10-27 11:05:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 31 46 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 37 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:07:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000001F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:07:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:05:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 30 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 38 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000020 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:08:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000020 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:08:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:06:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 31 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 39 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000021 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:09:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000021 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:09:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:07:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 32 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 30 39 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000022 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:09:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000022 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:09:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:08:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:08:12 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 11:08:13 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 33 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 30 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000023 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:10:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000023 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:10:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:08:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:09:09 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100343-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 34 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 31 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000024 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:11:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000024 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:11:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:09:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 35 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 32 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000025 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:12:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000025 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:12:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:10:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:10:45 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 36 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 32 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000026 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:12:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000026 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:12:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:11:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 37 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 33 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000027 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:13:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000027 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:13:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:11:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:12:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100269-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 38 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 34 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000028 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:14:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000028 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:14:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:12:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:12:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 39 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 35 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000029 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:15:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC8100000029 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:15:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:13:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:13:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100319-326bd5fefe523f9582d12448ac53fe8f
+ 2015-10-27 11:13:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100319-326bd5fefe523f9582d12448ac53fe8f
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 41 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 35 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:15:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:15:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:14:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 42 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 36 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:16:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:16:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:14:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:15:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 43 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 37 3A 32 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:17:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:17:23 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:15:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 44 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 38 3A 30 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002D HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:18:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002D HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:18:08 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:16:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:16:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 45 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 38 3A 35 33 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:18:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:18:53 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:17:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 2015-10-27 11:17:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100139-c3de462129ed73606311f26a503edd1d
+ 2015-10-27 11:17:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100105-546a450c276d2937de132ea89fabfd86
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.6.56:65426
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 378 remaining : 378 position : 0 capacity : 512
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 46 41 46 37 36 38 35 43 43 43 38 45 41 43 38 31 30 30 30 30 30 30 32 46 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 32 37 20 31 31 3A 31 39 3A 33 38 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 69 50 68 6F 6E 65 3B 20 43 50 55 20 69 50 68 6F 6E 65 20 4F 53 20 38 5F 33 20 6C 69 6B 65 20 4D 61 63 20 4F 53 20 58 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 36 30 30 2E 31 2E 34 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 4D 6F 62 69 6C 65 2F 31 32 46 37 30 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:19:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=FAF7685CCC8EAC810000002F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-27 11:19:38 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-27 11:17:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000003: nio socket, server, /192.168.6.56:65426 => /192.168.3.4:5333)
+ 

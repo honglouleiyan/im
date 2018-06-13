@@ -1,0 +1,58 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-console-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/jedis-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-core-4.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/ezmorph-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-web-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-protobuf-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-jms-pool-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/dom4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-integration-jmx-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-example-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/commons-pool2-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-kahadb-store-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-all-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-aop-4.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/junit-4.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-expression-4.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/slf4j-jdk14-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-pool-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-openwire-legacy-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-integration-beans-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/jzlib-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-core-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-tx-4.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-data-redis-1.4.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/fastjson-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-filter-compression-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-spring-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-integration-xbean-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-integration-ognl-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-beans-4.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/javassist-3.7.ga.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-http-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/spring-context-4.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/commons-logging-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-client-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/ognl-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-transport-apr-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/org.springframework.jms-3.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-broker-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/activemq-jaas-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/mina-statemachine-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/jaxen.jar!/" />
+      <root url="jar://$PROJECT_DIR$/accessserver/lib/commons-lang-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

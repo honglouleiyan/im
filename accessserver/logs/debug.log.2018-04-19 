@@ -1,0 +1,357 @@
+2018-04-19 19:22:49 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 9999
+ 2018-04-19 19:22:49 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2018-04-19 19:22:49
+ 2018-04-19 19:22:49 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:23:06 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 19:23:36 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:23:52 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 19:24:16 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-04-19 19:24:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54169
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54169
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 347 remaining : 347 position : 0 capacity : 2048
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 68 65 6C 6C 6F 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 2C 20 2A 2F 2A 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 33 38 63 33 63 30 31 36 63 64 62 35 39 38 64 25 33 41 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 0D 0A 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 41 70 61 63 68 65 2D 48 74 74 70 43 6C 69 65 6E 74 2F 34 2E 35 2E 33 20 28 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 29 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 64 65 66 6C 61 74 65 0D 0A 0D 0A
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:54169 => /127.0.0.1:9999)---
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+null
+ 2018-04-19 19:24:17 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-04-19 19:24:17 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 消息处理异常：null
+ java.lang.NullPointerException
+	at com.jihuiduo.netproxy.server.ServerMsgHandler.messageReceived(ServerMsgHandler.java:48)
+	at com.jihuiduo.netproxy.server.ServerHandler.messageReceived(ServerHandler.java:39)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:769)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:761)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:703)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-19 19:24:22 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:24:38 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 19:25:08 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000002: nio socket, server, /127.0.0.1:54169 => /127.0.0.1:9999)
+ 2018-04-19 19:25:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-04-19 19:25:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54243
+ 2018-04-19 19:25:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54243
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 347 remaining : 347 position : 0 capacity : 2048
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /127.0.0.1:54243 => /127.0.0.1:9999)---
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 68 65 6C 6C 6F 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 2C 20 2A 2F 2A 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 33 38 63 33 63 30 31 36 63 64 62 35 39 38 64 25 33 41 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 0D 0A 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 41 70 61 63 68 65 2D 48 74 74 70 43 6C 69 65 6E 74 2F 34 2E 35 2E 33 20 28 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 29 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 64 65 66 6C 61 74 65 0D 0A 0D 0A
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+null
+ 2018-04-19 19:25:17 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-04-19 19:25:17 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 消息处理异常：null
+ java.lang.NullPointerException
+	at com.jihuiduo.netproxy.server.ServerMsgHandler.messageReceived(ServerMsgHandler.java:48)
+	at com.jihuiduo.netproxy.server.ServerHandler.messageReceived(ServerHandler.java:39)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:769)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:761)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:703)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-19 19:25:24 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 19:25:54 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:26:10 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000003: nio socket, server, /127.0.0.1:54243 => /127.0.0.1:9999)
+ 2018-04-19 19:26:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-04-19 19:26:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54313
+ 2018-04-19 19:26:17 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54313
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 347 remaining : 347 position : 0 capacity : 2048
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000004: nio socket, server, /127.0.0.1:54313 => /127.0.0.1:9999)---
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 68 65 6C 6C 6F 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 2C 20 2A 2F 2A 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 33 38 63 33 63 30 31 36 63 64 62 35 39 38 64 25 33 41 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 0D 0A 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 41 70 61 63 68 65 2D 48 74 74 70 43 6C 69 65 6E 74 2F 34 2E 35 2E 33 20 28 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 29 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 64 65 66 6C 61 74 65 0D 0A 0D 0A
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+null
+ 2018-04-19 19:26:17 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-04-19 19:26:17 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 消息处理异常：null
+ java.lang.NullPointerException
+	at com.jihuiduo.netproxy.server.ServerMsgHandler.messageReceived(ServerMsgHandler.java:48)
+	at com.jihuiduo.netproxy.server.ServerHandler.messageReceived(ServerHandler.java:39)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:769)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:761)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:703)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-19 19:40:52 INFO [com.jihuiduo.netproxy.server.ServerHandler] 连接空闲
+ 2018-04-19 19:40:52 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-04-19 19:40:52 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-04-19 19:40:52 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54330
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54330
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 347 remaining : 347 position : 0 capacity : 2048
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000005: nio socket, server, /127.0.0.1:54330 => /127.0.0.1:9999)---
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 68 65 6C 6C 6F 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 2C 20 2A 2F 2A 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 33 38 63 33 63 30 31 36 63 64 62 35 39 38 64 25 33 41 33 65 39 34 32 34 66 66 38 30 32 35 35 37 65 35 25 33 41 31 0D 0A 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 41 70 61 63 68 65 2D 48 74 74 70 43 6C 69 65 6E 74 2F 34 2E 35 2E 33 20 28 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 29 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 64 65 66 6C 61 74 65 0D 0A 0D 0A
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: 3e9424ff802557e5%3A138c3c016cdb598d%3A3e9424ff802557e5%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+null
+ 2018-04-19 19:40:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-04-19 19:40:52 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 消息处理异常：null
+ java.lang.NullPointerException
+	at com.jihuiduo.netproxy.server.ServerMsgHandler.messageReceived(ServerMsgHandler.java:48)
+	at com.jihuiduo.netproxy.server.ServerHandler.messageReceived(ServerHandler.java:39)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:769)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:761)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:703)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-19 19:40:58 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:41:14 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 19:41:35 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000004: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 2018-04-19 19:41:44 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 19:41:52 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000005: nio socket, server, /127.0.0.1:54330 => /127.0.0.1:9999)
+ 2018-04-19 19:41:52 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-04-19 19:42:00 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 21:48:25 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 9999
+ 2018-04-19 21:48:25 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2018-04-19 21:48:25
+ 2018-04-19 21:48:25 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-04-19 21:48:41 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-04-19 21:48:53 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-04-19 21:48:53 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:65061
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:65061
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 347 remaining : 347 position : 0 capacity : 2048
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 68 65 6C 6C 6F 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 2C 20 2A 2F 2A 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 62 36 64 39 33 35 35 33 64 34 35 39 39 65 39 32 25 33 41 65 66 61 35 64 64 32 33 31 39 39 32 39 61 35 65 25 33 41 62 36 64 39 33 35 35 33 64 34 35 39 39 65 39 32 25 33 41 31 0D 0A 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 41 70 61 63 68 65 2D 48 74 74 70 43 6C 69 65 6E 74 2F 34 2E 35 2E 33 20 28 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 29 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 2C 64 65 66 6C 61 74 65 0D 0A 0D 0A
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: b6d93553d4599e92%3Aefa5dd2319929a5e%3Ab6d93553d4599e92%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:65061 => /127.0.0.1:9999)---
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /hello HTTP/1.1
+Accept: text/plain, text/plain, application/json, application/json, application/*+json, application/*+json, */*, */*
+uber-trace-id: b6d93553d4599e92%3Aefa5dd2319929a5e%3Ab6d93553d4599e92%3A1
+Host: localhost:9999
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+Accept-Encoding: gzip,deflate
+
+null
+ 2018-04-19 21:48:53 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-04-19 21:48:53 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 消息处理异常：null
+ java.lang.NullPointerException
+	at com.jihuiduo.netproxy.server.ServerMsgHandler.messageReceived(ServerMsgHandler.java:48)
+	at com.jihuiduo.netproxy.server.ServerHandler.messageReceived(ServerHandler.java:39)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:854)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:542)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1300(DefaultIoFilterChain.java:48)
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:943)
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74)
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:769)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:761)
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:703)
+	at java.lang.Thread.run(Thread.java:748)

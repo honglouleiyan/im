@@ -1,0 +1,1 @@
+java -cp .;../lib/msgserver.jar com.jihuiduo.msgserver.starter.ServerStarter

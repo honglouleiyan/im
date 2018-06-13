@@ -1,0 +1,253 @@
+2015-10-12 14:34:37 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:34:37 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:34:37 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:34:37
+ 2015-10-12 14:34:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:34:59 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:35:01 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 14:35:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:35:29 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:35:50 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:36:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-ffca2deefa5c4664920a26e382909aa2
+ 2015-10-12 14:36:20 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53835
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:53835 => /127.0.0.1:5333)
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:53835 => /127.0.0.1:5333)
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:40 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:36:40 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:36:40
+ 2015-10-12 14:36:40 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53877
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:53877 => /127.0.0.1:5333)
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:53877 => /127.0.0.1:5333)
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53891
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/127.0.0.1:53877
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:36:52 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:36:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 14:37:01 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:37:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:09 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:12 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:15 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:18 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:37:31 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53910
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:36 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:37 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:52 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:38:01 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-ffca2deefa5c4664920a26e382909aa2
+ 2015-10-12 14:38:51 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:38:51 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:38:51
+ 2015-10-12 14:38:51 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:38:55 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:38:55 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53958
+ 2015-10-12 14:38:55 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-e17ed9e11d63437eafa2dc2cd1ea2071
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:53958 => /127.0.0.1:5333)
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:53958 => /127.0.0.1:5333)
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:58 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:38:58 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53972
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/127.0.0.1:53958
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:39:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:01 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:03 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:12 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:57:18 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:57:18 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:57:18
+ 2015-10-12 14:57:18 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:57:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 14:57:23 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:57:23 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54151
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:54151 => /127.0.0.1:5333)
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:54151 => /127.0.0.1:5333)
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54165
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/127.0.0.1:54151
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:36 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:37 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:38 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:39 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:58:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-ffca2deefa5c4664920a26e382909aa2
+ 2015-10-12 14:58:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:58:09 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:58:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 15:04:53 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 15:04:53 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 15:04:53
+ 2015-10-12 15:04:53 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 15:04:56 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 15:04:56 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54236
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 15:04:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54250
+ 2015-10-12 15:05:00 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 旧连接：(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 新连接：(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:01 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:03 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:03 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 15:05:04 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:14 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more

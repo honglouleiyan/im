@@ -1,0 +1,54 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxTotal" value="1000"></property>
+		<property name="maxIdle" value="50"></property>
+		<property name="maxWaitMillis" value="3000"></property>
+	</bean>
+	<bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" destroy-method="destroy">
+		<property name="poolConfig" ref="jedisPoolConfig"></property>
+		<property name="hostName" value="115.159.47.200"></property>
+		<property name="port" value="6379"></property>
+		<property name="password" value="jhd@888888#"></property>
+		<property name="timeout" value="10000"></property>
+		<property name="database" value="0"></property>  
+	</bean>
+	<bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+		<property name="connectionFactory" ref="jedisConnectionFactory"></property>
+		<property name="keySerializer">
+			<bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+		</property>
+		<property name="valueSerializer">
+			<bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+		</property>
+		<property name="hashKeySerializer">  
+		        <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />  
+		    </property>  
+		<property name="hashValueSerializer">  
+		        <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />  
+		</property>  
+	</bean>
+	
+	<bean id="redisTemplate1" class="org.springframework.data.redis.core.RedisTemplate">
+		<property name="connectionFactory" ref="jedisConnectionFactory"></property>
+		<property name="keySerializer">
+			<bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+		</property>
+		<property name="valueSerializer">
+			<bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+		</property>
+		<property name="hashKeySerializer">  
+		        <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />  
+		    </property>  
+		<property name="hashValueSerializer">  
+		        <bean class="org.springframework.data.redis.serializer.StringRedisSerializer" />  
+		</property>  
+	</bean>
+	
+	<bean id="redisCacheService" class="com.jihuiduo.redis.service.impl.RedisCacheServiceImpl">
+		<property name="redisTemplate" ref="redisTemplate"></property>
+		<property name="redisTemplate1" ref="redisTemplate1"></property>
+	</bean>
+	
+</beans>

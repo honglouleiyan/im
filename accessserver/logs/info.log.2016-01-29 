@@ -1,0 +1,10 @@
+2016-01-29 16:57:50 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 9999
+ 2016-01-29 16:57:50 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2016-01-29 16:57:50
+ 2016-01-29 16:57:50 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2016-01-29 16:57:50 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端创建连接session
+ 2016-01-29 16:57:50 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] enter sessionOpened
+ 2016-01-29 16:57:50 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 连接[182.254.215.187:5222]成功
+ 2016-01-29 17:06:32 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 9999
+ 2016-01-29 17:06:32 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2016-01-29 17:06:32
+ 2016-01-29 17:06:32 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 

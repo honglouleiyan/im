@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<!-- IM连接  reconnectionTime秒    setouttime秒 -->
+	<imaddress reconnectionTime = "30" setouttime = "180">
+		<ticket ip="182.254.215.187" port="5222" weight="1"/> 
+<!-- 		<ticket ip="192.168.3.13" port="5222" weight="1"/>  -->
+<!-- 		<ticket ip="192.168.1.206" port="5222" weight="1"/> -->
+	</imaddress>
+	<!-- WEB连接  reconnectionTime秒    setouttime秒 -->
+	<webaddress reconnectionTime = "30" setouttime = "30">
+<!-- 		<ticket ip="192.168.1.206" port="80" weight="1"/> -->
+		<ticket ip="182.254.215.187" port="80" weight="1"/>
+<!-- 		<ticket ip="localhost" port="80" weight="1"/>  -->
+	</webaddress>
+	<!-- 本机地址  localhost localport本机连接IM服务器绑定端口号    port为监听端口号   idleTime空闲时间-->
+	<localaddress ip="182.254.215.187" port="9999" localport="10000" idleTime="180"/>
+</message>

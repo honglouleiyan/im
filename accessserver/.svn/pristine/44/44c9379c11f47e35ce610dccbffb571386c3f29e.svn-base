@@ -1,0 +1,22 @@
+2015-11-13 14:28:11 未进行身份验证就发消息：
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Fri, 13 Nov 2015 06:28:11 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+2015-11-13 14:42:40 未进行身份验证就发消息：
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Fri, 13 Nov 2015 06:42:40 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}

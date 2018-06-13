@@ -1,0 +1,182 @@
+2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-16 17:07:35
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端创建连接session
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] enter sessionOpened
+ 2015-10-16 17:07:35 DEBUG [com.jihuiduo.netproxy.cache.ImAllSession] into:192.168.3.3:5222
+ 2015-10-16 17:07:35 DEBUG [com.jihuiduo.netproxy.cache.ImAllSession] get:192.168.3.3:5222
+ 2015-10-16 17:07:35 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 连接[192.168.3.3:5222]成功
+ 2015-10-16 17:08:16 ERROR [com.jihuiduo.netproxy.clientim.ClientHanlder] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-16 17:08:16 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端连接断开
+ 2015-10-16 17:08:16 DEBUG [com.jihuiduo.netproxy.cache.ImAllSession] remove:192.168.3.3:5222
+ 2015-10-16 17:08:16 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:08:16 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.SocketAdaptor.bind(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.newHandle(NioSocketConnector.java:249)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.newHandle(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.connect0(AbstractPollingIoConnector.java:338)
+	at org.apache.mina.core.service.AbstractIoConnector.connect(AbstractIoConnector.java:270)
+	at org.apache.mina.core.service.AbstractIoConnector.connect(AbstractIoConnector.java:204)
+	... 2 more
+2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端创建连接session
+ 2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] enter sessionOpened
+ 2015-10-16 17:08:46 DEBUG [com.jihuiduo.netproxy.cache.ImAllSession] into:192.168.3.3:5222
+ 2015-10-16 17:08:46 DEBUG [com.jihuiduo.netproxy.cache.ImAllSession] get:192.168.3.3:5222
+ 2015-10-16 17:08:46 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 连接[192.168.3.3:5222]成功
+ 2015-10-16 17:08:55 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-16 17:09:26 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.3:5222
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 1179 remaining : 1179 position : 0 capacity : 2048
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 3F 73 65 71 3D 31 43 46 32 42 44 46 37 43 42 38 45 34 46 32 34 30 30 30 30 30 30 30 33 20 48 54 54 50 2F 31 2E 31 0D 0A 44 61 74 65 3A 20 46 72 69 2C 20 31 36 20 4F 63 74 20 32 30 31 35 20 30 39 3A 31 31 3A 34 38 20 47 4D 54 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 39 37 32 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 49 4D 53 65 72 76 65 72 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 53 65 72 76 65 72 3A 20 49 4D 53 65 72 76 65 72 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 37 41 46 43 35 39 38 46 31 45 34 32 34 37 38 42 30 30 30 30 30 30 30 31 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 30 30 33 37 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 30 31 32 36 22 5D 2C 22 74 79 70 65 22 3A 31 30 30 33 2C 22 6D 65 73 73 61 67 65 22 3A 22 62 61 6E 67 35 33 30 34 E5 B7 B2 E7 BB 8F E5 AE 8C E6 88 90 E4 BA 86 E4 BB BB E5 8A A1 5C 75 30 30 32 37 38 37 31 5C 75 30 30 32 37 EF BC 8C E8 AF B7 E7 A1 AE E8 AE A4 22 2C 22 6F 70 74 69 6F 6E 73 22 3A 7B 22 61 70 70 6C 79 22 3A 7B 22 61 70 70 6C 79 5F 69 64 22 3A 36 30 30 2E 30 2C 22 62 61 6E 67 5F 69 64 22 3A 31 38 37 37 2E 30 2C 22 61 70 70 6C 79 5F 75 73 65 72 22 3A 7B 22 69 64 22 3A 31 30 30 30 33 37 2E 30 2C 22 6E 69 63 6B 22 3A 22 62 61 6E 67 35 33 30 34 22 2C 22 68 65 61 64 22 3A 22 68 74 74 70 3A 2F 2F 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 38 38 38 38 2F 62 61 6E 67 62 61 6E 67 2F 64 65 66 61 75 6C 74 5F 70 69 63 74 75 72 65 2F 64 68 65 61 64 2E 6A 70 67 22 7D 2C 22 6D 65 73 73 61 67 65 22 3A 22 37 35 35 22 2C 22 61 70 70 6C 79 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 39 45 31 32 2C 22 61 70 70 6C 79 5F 73 74 61 74 75 73 22 3A 32 2E 30 2C 22 69 73 5F 64 65 6C 65 74 65 22 3A 30 2E 30 2C 22 63 72 65 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 39 45 31 32 2C 22 63 72 65 61 74 65 5F 75 73 65 72 22 3A 31 30 30 30 33 37 2E 30 2C 22 75 70 64 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 36 37 37 34 30 35 45 31 32 2C 22 75 70 64 61 74 65 5F 75 73 65 72 22 3A 31 30 30 30 33 37 2E 30 7D 2C 22 62 61 6E 67 5F 69 6E 66 6F 22 3A 7B 22 62 61 6E 67 5F 69 64 22 3A 31 38 37 37 2E 30 2C 22 74 69 74 6C 65 22 3A 22 38 37 31 22 2C 22 63 6F 6E 74 65 6E 74 22 3A 22 68 6A 6A 6A 22 2C 22 72 65 77 61 72 64 22 3A 22 E4 B8 80 E5 91 A8 6D 6F 72 6E 69 6E 67 20 63 61 6C 6C 22 2C 22 6D 6F 6E 65 79 22 3A 30 2E 30 2C 22 65 6E 64 5F 74 69 6D 65 22 3A 31 2E 34 34 37 36 30 33 32 45 31 32 2C 22 62 61 6E 67 5F 73 74 61 74 75 73 22 3A 31 2E 30 2C 22 77 61 69 74 5F 6E 75 6D 22 3A 31 2E 30 2C 22 63 6F 6D 6D 65 6E 74 5F 6E 75 6D 22 3A 31 2E 30 2C 22 69 73 5F 64 65 6C 65 74 65 22 3A 30 2E 30 2C 22 69 73 73 75 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 38 31 45 31 32 2C 22 63 72 65 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 38 31 45 31 32 2C 22 63 72 65 61 74 65 5F 75 73 65 72 22 3A 7B 22 69 64 22 3A 31 30 30 30 33 37 2E 30 2C 22 6E 69 63 6B 22 3A 22 62 61 6E 67 35 33 30 34 22 2C 22 68 65 61 64 22 3A 22 68 74 74 70 3A 2F 2F 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 38 38 38 38 2F 62 61 6E 67 62 61 6E 67 2F 64 65 66 61 75 6C 74 5F 70 69 63 74 75 72 65 2F 64 68 65 61 64 2E 6A 70 67 22 7D 2C 22 75 70 64 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 36 45 31 32 2C 22 75 70 64 61 74 65 5F 75 73 65 72 22 3A 31 30 30 31 32 36 2E 30 2C 22 69 6D 61 67 65 73 22 3A 5B 5D 7D 7D 7D 5D 7D
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im?seq=1CF2BDF7CB8E4F2400000003 HTTP/1.1
+Date: Fri, 16 Oct 2015 09:11:48 GMT
+Content-Length: 972
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7AFC598F1E42478B00000001","user_id":"100037","dst_user_id":["100126"],"type":1003,"message":"bang5304已经完成了任务\u0027871\u0027，请确认","options":{"apply":{"apply_id":600.0,"bang_id":1877.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"755","apply_time":1.44498659E12,"apply_status":2.0,"is_delete":0.0,"create_time":1.44498659E12,"create_user":100037.0,"update_time":1.444986677405E12,"update_user":100037.0},"bang_info":{"bang_id":1877.0,"title":"871","content":"hjjj","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":1.0,"is_delete":0.0,"issue_time":1.444986581E12,"create_time":1.444986581E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.4449866E12,"update_user":100126.0,"images":[]}}}]}
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 收到IM服务器消息：POST /v2/im?seq=1CF2BDF7CB8E4F2400000003 HTTP/1.1
+Date: Fri, 16 Oct 2015 09:11:48 GMT
+Content-Length: 972
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7AFC598F1E42478B00000001","user_id":"100037","dst_user_id":["100126"],"type":1003,"message":"bang5304已经完成了任务\u0027871\u0027，请确认","options":{"apply":{"apply_id":600.0,"bang_id":1877.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"755","apply_time":1.44498659E12,"apply_status":2.0,"is_delete":0.0,"create_time":1.44498659E12,"create_user":100037.0,"update_time":1.444986677405E12,"update_user":100037.0},"bang_info":{"bang_id":1877.0,"title":"871","content":"hjjj","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":1.0,"is_delete":0.0,"issue_time":1.444986581E12,"create_time":1.444986581E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.4449866E12,"update_user":100126.0,"images":[]}}}]}
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] POST消息
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] IM消息
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126
+ 2015-10-16 17:10:06 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126,目标设备：null
+ 2015-10-16 17:10:06 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 用户找不到登录的设备
+ 2015-10-16 17:10:07 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126,目标设备：f76369943ec18fc96d7339a5018d1e82,目标session:null
+ 2015-10-16 17:10:07 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 100126断线
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.3:5222
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 1179 remaining : 1179 position : 0 capacity : 2048
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 3F 73 65 71 3D 31 43 46 32 42 44 46 37 43 42 38 45 34 46 32 34 30 30 30 30 30 30 30 33 20 48 54 54 50 2F 31 2E 31 0D 0A 44 61 74 65 3A 20 46 72 69 2C 20 31 36 20 4F 63 74 20 32 30 31 35 20 30 39 3A 31 31 3A 34 38 20 47 4D 54 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 39 37 32 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 49 4D 53 65 72 76 65 72 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 53 65 72 76 65 72 3A 20 49 4D 53 65 72 76 65 72 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 37 41 46 43 35 39 38 46 31 45 34 32 34 37 38 42 30 30 30 30 30 30 30 31 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 30 30 33 37 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 30 31 32 36 22 5D 2C 22 74 79 70 65 22 3A 31 30 30 33 2C 22 6D 65 73 73 61 67 65 22 3A 22 62 61 6E 67 35 33 30 34 E5 B7 B2 E7 BB 8F E5 AE 8C E6 88 90 E4 BA 86 E4 BB BB E5 8A A1 5C 75 30 30 32 37 38 37 31 5C 75 30 30 32 37 EF BC 8C E8 AF B7 E7 A1 AE E8 AE A4 22 2C 22 6F 70 74 69 6F 6E 73 22 3A 7B 22 61 70 70 6C 79 22 3A 7B 22 61 70 70 6C 79 5F 69 64 22 3A 36 30 30 2E 30 2C 22 62 61 6E 67 5F 69 64 22 3A 31 38 37 37 2E 30 2C 22 61 70 70 6C 79 5F 75 73 65 72 22 3A 7B 22 69 64 22 3A 31 30 30 30 33 37 2E 30 2C 22 6E 69 63 6B 22 3A 22 62 61 6E 67 35 33 30 34 22 2C 22 68 65 61 64 22 3A 22 68 74 74 70 3A 2F 2F 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 38 38 38 38 2F 62 61 6E 67 62 61 6E 67 2F 64 65 66 61 75 6C 74 5F 70 69 63 74 75 72 65 2F 64 68 65 61 64 2E 6A 70 67 22 7D 2C 22 6D 65 73 73 61 67 65 22 3A 22 37 35 35 22 2C 22 61 70 70 6C 79 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 39 45 31 32 2C 22 61 70 70 6C 79 5F 73 74 61 74 75 73 22 3A 32 2E 30 2C 22 69 73 5F 64 65 6C 65 74 65 22 3A 30 2E 30 2C 22 63 72 65 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 39 45 31 32 2C 22 63 72 65 61 74 65 5F 75 73 65 72 22 3A 31 30 30 30 33 37 2E 30 2C 22 75 70 64 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 36 37 37 34 30 35 45 31 32 2C 22 75 70 64 61 74 65 5F 75 73 65 72 22 3A 31 30 30 30 33 37 2E 30 7D 2C 22 62 61 6E 67 5F 69 6E 66 6F 22 3A 7B 22 62 61 6E 67 5F 69 64 22 3A 31 38 37 37 2E 30 2C 22 74 69 74 6C 65 22 3A 22 38 37 31 22 2C 22 63 6F 6E 74 65 6E 74 22 3A 22 68 6A 6A 6A 22 2C 22 72 65 77 61 72 64 22 3A 22 E4 B8 80 E5 91 A8 6D 6F 72 6E 69 6E 67 20 63 61 6C 6C 22 2C 22 6D 6F 6E 65 79 22 3A 30 2E 30 2C 22 65 6E 64 5F 74 69 6D 65 22 3A 31 2E 34 34 37 36 30 33 32 45 31 32 2C 22 62 61 6E 67 5F 73 74 61 74 75 73 22 3A 31 2E 30 2C 22 77 61 69 74 5F 6E 75 6D 22 3A 31 2E 30 2C 22 63 6F 6D 6D 65 6E 74 5F 6E 75 6D 22 3A 31 2E 30 2C 22 69 73 5F 64 65 6C 65 74 65 22 3A 30 2E 30 2C 22 69 73 73 75 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 38 31 45 31 32 2C 22 63 72 65 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 35 38 31 45 31 32 2C 22 63 72 65 61 74 65 5F 75 73 65 72 22 3A 7B 22 69 64 22 3A 31 30 30 30 33 37 2E 30 2C 22 6E 69 63 6B 22 3A 22 62 61 6E 67 35 33 30 34 22 2C 22 68 65 61 64 22 3A 22 68 74 74 70 3A 2F 2F 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 38 38 38 38 2F 62 61 6E 67 62 61 6E 67 2F 64 65 66 61 75 6C 74 5F 70 69 63 74 75 72 65 2F 64 68 65 61 64 2E 6A 70 67 22 7D 2C 22 75 70 64 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 36 45 31 32 2C 22 75 70 64 61 74 65 5F 75 73 65 72 22 3A 31 30 30 31 32 36 2E 30 2C 22 69 6D 61 67 65 73 22 3A 5B 5D 7D 7D 7D 5D 7D
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im?seq=1CF2BDF7CB8E4F2400000003 HTTP/1.1
+Date: Fri, 16 Oct 2015 09:11:48 GMT
+Content-Length: 972
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7AFC598F1E42478B00000001","user_id":"100037","dst_user_id":["100126"],"type":1003,"message":"bang5304已经完成了任务\u0027871\u0027，请确认","options":{"apply":{"apply_id":600.0,"bang_id":1877.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"755","apply_time":1.44498659E12,"apply_status":2.0,"is_delete":0.0,"create_time":1.44498659E12,"create_user":100037.0,"update_time":1.444986677405E12,"update_user":100037.0},"bang_info":{"bang_id":1877.0,"title":"871","content":"hjjj","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":1.0,"is_delete":0.0,"issue_time":1.444986581E12,"create_time":1.444986581E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.4449866E12,"update_user":100126.0,"images":[]}}}]}
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 收到IM服务器消息：POST /v2/im?seq=1CF2BDF7CB8E4F2400000003 HTTP/1.1
+Date: Fri, 16 Oct 2015 09:11:48 GMT
+Content-Length: 972
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7AFC598F1E42478B00000001","user_id":"100037","dst_user_id":["100126"],"type":1003,"message":"bang5304已经完成了任务\u0027871\u0027，请确认","options":{"apply":{"apply_id":600.0,"bang_id":1877.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"755","apply_time":1.44498659E12,"apply_status":2.0,"is_delete":0.0,"create_time":1.44498659E12,"create_user":100037.0,"update_time":1.444986677405E12,"update_user":100037.0},"bang_info":{"bang_id":1877.0,"title":"871","content":"hjjj","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":1.0,"is_delete":0.0,"issue_time":1.444986581E12,"create_time":1.444986581E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.4449866E12,"update_user":100126.0,"images":[]}}}]}
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] POST消息
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] IM消息
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126,目标设备：null
+ 2015-10-16 17:11:12 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 用户找不到登录的设备
+ 2015-10-16 17:11:12 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126,目标设备：f76369943ec18fc96d7339a5018d1e82,目标session:null
+ 2015-10-16 17:11:12 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 100126断线
+ 2015-10-16 17:11:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100126-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-16 17:11:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-16 17:12:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-16 17:13:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.3:5222
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 1176 remaining : 1176 position : 0 capacity : 2048
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 3F 73 65 71 3D 31 43 46 32 42 44 46 37 43 42 38 45 34 46 32 34 30 30 30 30 30 30 30 44 20 48 54 54 50 2F 31 2E 31 0D 0A 44 61 74 65 3A 20 46 72 69 2C 20 31 36 20 4F 63 74 20 32 30 31 35 20 30 39 3A 31 36 3A 30 39 20 47 4D 54 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 39 36 39 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 49 4D 53 65 72 76 65 72 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 53 65 72 76 65 72 3A 20 49 4D 53 65 72 76 65 72 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 37 42 37 44 31 34 31 46 37 38 46 31 34 46 35 31 30 30 30 30 30 30 30 31 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 30 30 33 37 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 30 31 32 36 22 5D 2C 22 74 79 70 65 22 3A 31 30 30 32 2C 22 6D 65 73 73 61 67 65 22 3A 22 62 61 6E 67 35 33 30 34 E5 90 8C E6 84 8F E4 BA 86 E6 82 A8 E5 AF B9 5C 75 30 30 32 37 61 73 66 5C 75 30 30 32 37 E7 9A 84 E7 94 B3 E8 AF B7 22 2C 22 6F 70 74 69 6F 6E 73 22 3A 7B 22 61 70 70 6C 79 22 3A 7B 22 61 70 70 6C 79 5F 69 64 22 3A 36 30 31 2E 30 2C 22 62 61 6E 67 5F 69 64 22 3A 31 38 38 31 2E 30 2C 22 61 70 70 6C 79 5F 75 73 65 72 22 3A 7B 22 69 64 22 3A 31 30 30 30 33 37 2E 30 2C 22 6E 69 63 6B 22 3A 22 62 61 6E 67 35 33 30 34 22 2C 22 68 65 61 64 22 3A 22 68 74 74 70 3A 2F 2F 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 38 38 38 38 2F 62 61 6E 67 62 61 6E 67 2F 64 65 66 61 75 6C 74 5F 70 69 63 74 75 72 65 2F 64 68 65 61 64 2E 6A 70 67 22 7D 2C 22 6D 65 73 73 61 67 65 22 3A 22 31 32 33 22 2C 22 61 70 70 6C 79 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 39 35 34 45 31 32 2C 22 61 70 70 6C 79 5F 73 74 61 74 75 73 22 3A 31 2E 30 2C 22 69 73 5F 64 65 6C 65 74 65 22 3A 30 2E 30 2C 22 63 72 65 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 39 35 34 45 31 32 2C 22 63 72 65 61 74 65 5F 75 73 65 72 22 3A 31 30 30 31 32 36 2E 30 2C 22 75 70 64 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 39 36 30 30 33 33 45 31 32 2C 22 75 70 64 61 74 65 5F 75 73 65 72 22 3A 31 30 30 30 33 37 2E 30 7D 2C 22 62 61 6E 67 5F 69 6E 66 6F 22 3A 7B 22 62 61 6E 67 5F 69 64 22 3A 31 38 38 31 2E 30 2C 22 74 69 74 6C 65 22 3A 22 61 73 66 22 2C 22 63 6F 6E 74 65 6E 74 22 3A 22 61 73 64 22 2C 22 72 65 77 61 72 64 22 3A 22 E4 B8 80 E5 91 A8 6D 6F 72 6E 69 6E 67 20 63 61 6C 6C 22 2C 22 6D 6F 6E 65 79 22 3A 30 2E 30 2C 22 65 6E 64 5F 74 69 6D 65 22 3A 31 2E 34 34 37 36 30 33 32 45 31 32 2C 22 62 61 6E 67 5F 73 74 61 74 75 73 22 3A 31 2E 30 2C 22 77 61 69 74 5F 6E 75 6D 22 3A 31 2E 30 2C 22 63 6F 6D 6D 65 6E 74 5F 6E 75 6D 22 3A 30 2E 30 2C 22 69 73 5F 64 65 6C 65 74 65 22 3A 30 2E 30 2C 22 69 73 73 75 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 39 34 34 45 31 32 2C 22 63 72 65 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 39 34 34 45 31 32 2C 22 63 72 65 61 74 65 5F 75 73 65 72 22 3A 7B 22 69 64 22 3A 31 30 30 30 33 37 2E 30 2C 22 6E 69 63 6B 22 3A 22 62 61 6E 67 35 33 30 34 22 2C 22 68 65 61 64 22 3A 22 68 74 74 70 3A 2F 2F 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 38 38 38 38 2F 62 61 6E 67 62 61 6E 67 2F 64 65 66 61 75 6C 74 5F 70 69 63 74 75 72 65 2F 64 68 65 61 64 2E 6A 70 67 22 7D 2C 22 75 70 64 61 74 65 5F 74 69 6D 65 22 3A 31 2E 34 34 34 39 38 36 39 36 30 30 33 33 45 31 32 2C 22 75 70 64 61 74 65 5F 75 73 65 72 22 3A 31 30 30 30 33 37 2E 30 2C 22 69 6D 61 67 65 73 22 3A 5B 5D 7D 7D 7D 5D 7D
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im?seq=1CF2BDF7CB8E4F240000000D HTTP/1.1
+Date: Fri, 16 Oct 2015 09:16:09 GMT
+Content-Length: 969
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7B7D141F78F14F5100000001","user_id":"100037","dst_user_id":["100126"],"type":1002,"message":"bang5304同意了您对\u0027asf\u0027的申请","options":{"apply":{"apply_id":601.0,"bang_id":1881.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"123","apply_time":1.444986954E12,"apply_status":1.0,"is_delete":0.0,"create_time":1.444986954E12,"create_user":100126.0,"update_time":1.444986960033E12,"update_user":100037.0},"bang_info":{"bang_id":1881.0,"title":"asf","content":"asd","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.444986944E12,"create_time":1.444986944E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.444986960033E12,"update_user":100037.0,"images":[]}}}]}
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 收到IM服务器消息：POST /v2/im?seq=1CF2BDF7CB8E4F240000000D HTTP/1.1
+Date: Fri, 16 Oct 2015 09:16:09 GMT
+Content-Length: 969
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"7B7D141F78F14F5100000001","user_id":"100037","dst_user_id":["100126"],"type":1002,"message":"bang5304同意了您对\u0027asf\u0027的申请","options":{"apply":{"apply_id":601.0,"bang_id":1881.0,"apply_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"message":"123","apply_time":1.444986954E12,"apply_status":1.0,"is_delete":0.0,"create_time":1.444986954E12,"create_user":100126.0,"update_time":1.444986960033E12,"update_user":100037.0},"bang_info":{"bang_id":1881.0,"title":"asf","content":"asd","reward":"一周morning call","money":0.0,"end_time":1.4476032E12,"bang_status":1.0,"wait_num":1.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.444986944E12,"create_time":1.444986944E12,"create_user":{"id":100037.0,"nick":"bang5304","head":"http://115.159.47.200:8888/bangbang/default_picture/dhead.jpg"},"update_time":1.444986960033E12,"update_user":100037.0,"images":[]}}}]}
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] POST消息
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] IM消息
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126,目标设备：f76369943ec18fc96d7339a5018d1e82
+ 2015-10-16 17:14:21 DEBUG [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 目标用户：100126,目标设备：f76369943ec18fc96d7339a5018d1e82,目标session:null
+ 2015-10-16 17:14:21 ERROR [com.jihuiduo.netproxy.clientim.ImMsgHanlder] 100126断线
+ 2015-10-16 17:15:04 ERROR [com.jihuiduo.netproxy.clientim.ClientHanlder] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-16 17:15:04 INFO [com.jihuiduo.netproxy.clientim.ClientHanlder] 和服务端连接断开
+ 2015-10-16 17:15:04 DEBUG [com.jihuiduo.netproxy.cache.ImAllSession] remove:192.168.3.3:5222
+ 2015-10-16 17:15:04 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-16 17:15:05 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more

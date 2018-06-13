@@ -1,0 +1,90 @@
+2015-09-24 17:51:17 未进行身份验证就发消息：
+POST /v2/im?seq=5256476274920A3A00000004&access_token=a11ab1aa63ad4635b3c11e1ff38226ab HTTP/1.1
+Host:192.168.3.17:5333
+Date: 2015-09-24 17:52:40 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 442
+
+{
+  "message_info" : [
+    {
+      "msg_id" : "5256476274920A3A00000003",
+      "type" : 1,
+      "time" : "1443088360971",
+      "dst_user_id" : 100105,
+      "message" : "哈哈哈哈哈哈哈，你好",
+      "offline" : 0,
+      "user_id" : [
+        100102
+      ],
+      "att_type" : 1,
+      "priority" : 0,
+      "att" : [
+        {
+          "msgtype" : 1,
+          "totaltime" : "0"
+        }
+      ],
+      "state" : 0
+    }
+  ]
+}
+2015-09-24 17:55:37 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Sep 2015 09:57:08 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-24 17:56:56 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Sep 2015 09:58:27 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-24 17:57:38 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Sep 2015 09:59:09 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-24 18:05:52 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Sep 2015 10:07:23 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-24 18:08:00 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Sep 2015 10:09:31 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-24 18:09:45 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Sep 2015 10:11:16 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}

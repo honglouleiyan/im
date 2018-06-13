@@ -1,0 +1,1057 @@
+2015-10-12 14:34:37 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:34:37 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:34:37 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:34:37
+ 2015-10-12 14:34:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:34:59 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:35:01 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 14:35:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:35:29 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:35:50 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:36:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-ffca2deefa5c4664920a26e382909aa2
+ 2015-10-12 14:36:20 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53835
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:53835 => /127.0.0.1:5333)---
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53835
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 888 position : 0 capacity : 2048
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 32 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 32 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:24 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:24 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53835
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 521 position : 367 capacity : 2048
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 32 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:24 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:24 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:53835 => /127.0.0.1:5333)
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:36:24 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:53835 => /127.0.0.1:5333)
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000002: nio socket, server, /127.0.0.1:53835 => /127.0.0.1:5333)
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:24 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:36:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:24 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:36:24 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:36:40 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:36:40 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:36:40
+ 2015-10-12 14:36:40 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53877
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:53877 => /127.0.0.1:5333)---
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53877
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 888 position : 0 capacity : 2048
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 34 38 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 34 38 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:48 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:48 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53877
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 521 position : 367 capacity : 2048
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 34 38 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:48 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:48 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:53877 => /127.0.0.1:5333)
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:36:48 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:53877 => /127.0.0.1:5333)
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000002: nio socket, server, /127.0.0.1:53877 => /127.0.0.1:5333)
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:48 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:36:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:48 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:36:48 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53891
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)---
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53891
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 35 31 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:51 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:51 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53891
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 36 3A 35 31 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:51 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/127.0.0.1:53877
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100031
+ 2015-10-12 14:36:51 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:36:52 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:36:52 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:36:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:36:51 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:36:52 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:36:52 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:36:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 14:37:01 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:37:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:09 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:12 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:15 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:18 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53891 => /127.0.0.1:5333)
+ 2015-10-12 14:37:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:37:31 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53910
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)---
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53910
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 37 3A 33 33 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:37:33 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53910
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:37:33 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 37 3A 33 33 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:37:33 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:37:33 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100031
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:37:33 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:37:33 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:37:33 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:37:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:36 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:37 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000004: nio socket, server, /127.0.0.1:53910 => /127.0.0.1:5333)
+ 2015-10-12 14:37:52 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:38:01 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-ffca2deefa5c4664920a26e382909aa2
+ 2015-10-12 14:38:51 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:38:51 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:38:51
+ 2015-10-12 14:38:51 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:38:55 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:38:55 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53958
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:53958 => /127.0.0.1:5333)---
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53958
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 38 3A 35 35 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:55 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53958
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 38 3A 35 35 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:55 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:55 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:38:55 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:38:55 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-e17ed9e11d63437eafa2dc2cd1ea2071
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:53958 => /127.0.0.1:5333)
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:38:56 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:53958 => /127.0.0.1:5333)
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000002: nio socket, server, /127.0.0.1:53958 => /127.0.0.1:5333)
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:55 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:38:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:56 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:38:56 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:38:58 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:38:58 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:53972
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)---
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53972
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 38 3A 35 38 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:58 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:58 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:53972
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 33 38 3A 35 38 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:38:58 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:58 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/127.0.0.1:53958
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:38:59 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100031
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:38:58 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:38:59 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:38:59 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:39:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:01 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:03 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:53972 => /127.0.0.1:5333)
+ 2015-10-12 14:39:12 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:57:18 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 14:57:18 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 14:57:18
+ 2015-10-12 14:57:18 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:57:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 14:57:23 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:57:23 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54151
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:54151 => /127.0.0.1:5333)---
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54151
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 888 position : 0 capacity : 2048
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 35 37 3A 32 33 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 35 37 3A 32 33 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:23 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:23 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54151
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 521 position : 367 capacity : 2048
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 35 37 3A 32 33 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:23 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:23 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:57:23 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:54151 => /127.0.0.1:5333)
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:57:24 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:54151 => /127.0.0.1:5333)
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000002: nio socket, server, /127.0.0.1:54151 => /127.0.0.1:5333)
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:23 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:24 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:57:24 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:57:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54165
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)---
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54165
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 35 37 3A 33 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:34 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:34 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54165
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 36 3A 35 37 3A 33 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:34 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/127.0.0.1:54151
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000002: nio socket, server, null => 0.0.0.0/0.0.0.0:5333)
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:57:34 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100031
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 06:57:34 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:34 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 06:57:34 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 14:57:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:35 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:35 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:36 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:36 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:36 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:37 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:37 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:37 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:38 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:38 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54165 => /127.0.0.1:5333)
+ 2015-10-12 14:57:38 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 14:57:39 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-12 14:58:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-ffca2deefa5c4664920a26e382909aa2
+ 2015-10-12 14:58:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 14:58:09 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 14:58:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-15ed90860e6d41f5a1b1fb77854a6d67
+ 2015-10-12 15:04:53 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-12 15:04:53 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-12 15:04:53
+ 2015-10-12 15:04:53 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-12 15:04:56 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 15:04:56 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54236
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)---
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54236
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 888 position : 0 capacity : 2048
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 37 3A 30 34 3A 35 36 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 37 3A 30 34 3A 35 36 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:56 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:56 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54236
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 888 remaining : 521 position : 367 capacity : 2048
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 37 3A 30 34 3A 35 36 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:56 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:56 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 15:04:56 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 07:04:57 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:56 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:57 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 07:04:57 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 15:04:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:04:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-12 15:04:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:54250
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)---
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54250
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 37 3A 30 34 3A 35 39 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:59 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:59 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:54250
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 32 20 4F 63 74 20 32 30 31 35 20 30 37 3A 30 34 3A 35 39 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-12 15:04:59 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:59 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 15:05:00 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 旧连接：(0x00000002: nio socket, server, /127.0.0.1:54236 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 ERROR [com.jihuiduo.netproxy.server.ServerMsgHandler] 新连接：(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100031
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100031
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 07:05:00 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000002: nio socket, server, null => 0.0.0.0/0.0.0.0:5333)
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 12 Oct 2015 07:04:59 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-12 15:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 12 Oct 2015 07:05:00 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-12 15:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:01 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:01 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:01 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:02 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:02 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:03 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:03 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:03 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:03 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100125-cb5867d25c6827a20e412ae2a354e387
+ 2015-10-12 15:05:04 DEBUG [com.jihuiduo.netproxy.cache.DeviceServerCacheThread] 一个APP出现了两个连接:(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:04 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000003: nio socket, server, /127.0.0.1:54250 => /127.0.0.1:5333)
+ 2015-10-12 15:05:04 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-12 15:05:14 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more

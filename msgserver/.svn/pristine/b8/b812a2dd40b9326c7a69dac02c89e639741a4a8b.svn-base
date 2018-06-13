@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Main-Class: com.jihuiduo.msgserver.starter.ServerStarter
+Class-Path: 
+  activemq-all-5.11.1.jar
+  bcprov-jdk16-145.jar
+  commons-lang-2.6.jar
+  commons-logging-1.0.3.jar
+  commons-pool-1.5.4.jar
+  dom4j.jar
+  gson-2.2.2.jar
+  JavaPNS_2.2.jar
+  jaxen.jar
+  jedis-2.1.0.jar
+  jpush-client-3.2.3.jar
+  log4j.jar
+  mina-core-2.0.9.jar
+  mina-example-2.0.9.jar
+  mina-filter-compression-2.0.9.jar
+  mina-http-2.0.9.jar
+  mysql-connector-java-5.1.22-bin.jar
+  proxool-0.9.1.jar
+  proxool-cglib.jar
+  slf4j-api-1.7.7.jar
+  spring-aop-4.1.5.RELEASE.jar
+  spring-beans-4.1.5.RELEASE.jar
+  spring-context-4.1.5.RELEASE.jar
+  spring-core-4.1.5.RELEASE.jar
+  spring-data-redis-1.4.2.RELEASE.jar
+  spring-expression-4.1.5.RELEASE.jar
+  spring-jms-4.1.5.RELEASE.jar
+  spring-tx-4.1.5.RELEASE.jar
+  

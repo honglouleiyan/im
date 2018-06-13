@@ -1,0 +1,643 @@
+2015-10-22 09:19:13 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 09:19:13 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 09:19:13
+ 2015-10-22 09:19:17 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100171-139083af1c6040c91daad531ebde7f31
+ 2015-10-22 09:21:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:21:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:22:26 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 09:22:26 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.55:60648
+ 2015-10-22 09:22:26 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：f5146d5cd42839ee990786f38a72e79f-(0x00000002: nio socket, server, /192.168.6.55:60648 => /192.168.3.4:5333)
+ 2015-10-22 09:22:27 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.55:60648 => /192.168.3.4:5333)
+ 2015-10-22 09:22:27 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:22:27 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:26:01 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 09:26:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 09:27:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] 连接空闲
+ 2015-10-22 09:27:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/192.168.6.55:60648
+ 2015-10-22 09:27:19 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:27:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100037
+ 2015-10-22 09:36:41 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 09:36:41 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.55:60663
+ 2015-10-22 09:36:41 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：f5146d5cd42839ee990786f38a72e79f-(0x00000003: nio socket, server, /192.168.6.55:60663 => /192.168.3.4:5333)
+ 2015-10-22 09:36:41 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.6.55:60663 => /192.168.3.4:5333)
+ 2015-10-22 09:36:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:36:42 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:37:04 ERROR [com.jihuiduo.netproxy.server.ServerHandler] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-22 09:37:04 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 09:37:04 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:37:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100037
+ 2015-10-22 09:37:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:37:44 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 09:37:44 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.55:60669
+ 2015-10-22 09:37:44 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：f5146d5cd42839ee990786f38a72e79f-(0x00000004: nio socket, server, /192.168.6.55:60669 => /192.168.3.4:5333)
+ 2015-10-22 09:37:45 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /192.168.6.55:60669 => /192.168.3.4:5333)
+ 2015-10-22 09:37:45 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:37:45 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:39:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100171-139083af1c6040c91daad531ebde7f31
+ 2015-10-22 09:42:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] 连接空闲
+ 2015-10-22 09:42:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 09:42:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:42:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100037
+ 2015-10-22 09:45:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 09:46:07 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-60ceb87c7030e3ab33381752842cfb81
+ 2015-10-22 09:47:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100172-9ed07bd047df4aa4891b29084f70beb3
+ 2015-10-22 09:48:23 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100172-9ed07bd047df4aa4891b29084f70beb3
+ 2015-10-22 09:50:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-60ceb87c7030e3ab33381752842cfb81
+ 2015-10-22 09:50:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 09:56:04 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 09:56:04
+ 2015-10-22 09:56:04 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 09:56:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 09:56:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 09:56:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 09:56:45 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 09:56:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 09:56:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:56:48 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 09:56:48 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.55:60681
+ 2015-10-22 09:56:49 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：f5146d5cd42839ee990786f38a72e79f-(0x00000002: nio socket, server, /192.168.6.55:60681 => /192.168.3.4:5333)
+ 2015-10-22 09:56:49 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.55:60681 => /192.168.3.4:5333)
+ 2015-10-22 09:56:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:56:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 09:59:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:00:26 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:02:55 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 10:03:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:03:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:04:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:04:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:04:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:04:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:05:13 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:05:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:05:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:05:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:05:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-60ceb87c7030e3ab33381752842cfb81
+ 2015-10-22 10:05:43 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:06:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:06:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:06:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:06:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:06:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:06:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:07:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:07:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:07:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:07:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:07:48 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:08:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:11:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 10:11:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 10:12:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:12:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:18:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:19:20 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:21:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:22:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100205-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 10:22:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:23:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:24:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:24:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:25:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:25:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:25:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:25:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:25:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100186-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:25:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:26:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100046-7185dfae76d5bf1e8e914eb1f3f8d0c5
+ 2015-10-22 10:27:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-22 10:27:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-22 10:27:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100195-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:27:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100195-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:28:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:28:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:28:13 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100195-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:29:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100126-48ba0fea2736916df03af4fdae831aca
+ 2015-10-22 10:30:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100046-7185dfae76d5bf1e8e914eb1f3f8d0c5
+ 2015-10-22 10:30:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100046-7185dfae76d5bf1e8e914eb1f3f8d0c5
+ 2015-10-22 10:31:45 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100195-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 10:31:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100205-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 10:31:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100205-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 10:32:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:32:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:32:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:32:40 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 10:32:43 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:32:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-bfdcb76cfc3f4b657413d775d5e7f3ba
+ 2015-10-22 10:33:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-22 10:33:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-22 10:34:03 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-22 10:34:03 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-22 10:34:23 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100206-5f342b3b21a249f29541ebf216712fd8
+ 2015-10-22 11:00:20 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 11:00:20 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 11:00:20
+ 2015-10-22 11:00:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100223-f426455b551e406d9dc1689260b35893
+ 2015-10-22 11:01:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100222-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:01:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-25628dbf10a845a4b8d5cee0de2a1a15
+ 2015-10-22 11:02:26 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100222-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:02:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-69943d1529ff4424b6f80803842f931d
+ 2015-10-22 11:02:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-69943d1529ff4424b6f80803842f931d
+ 2015-10-22 11:03:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100221-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:03:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100221-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:04:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-69943d1529ff4424b6f80803842f931d
+ 2015-10-22 11:06:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-69943d1529ff4424b6f80803842f931d
+ 2015-10-22 11:06:58 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100221-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:07:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-69943d1529ff4424b6f80803842f931d
+ 2015-10-22 11:08:12 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 11:08:12 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 11:09:05 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 11:09:05
+ 2015-10-22 11:09:05 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 11:10:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 11:12:14 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 11:12:14
+ 2015-10-22 11:12:14 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 11:13:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-22 11:14:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:14:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 11:14:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 11:14:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100206-5f342b3b21a249f29541ebf216712fd8
+ 2015-10-22 11:17:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100224-5f342b3b21a249f29541ebf216712fd8
+ 2015-10-22 11:17:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100224-5f342b3b21a249f29541ebf216712fd8
+ 2015-10-22 11:17:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-c58cb6f86fa1442d86075d44a2771016
+ 2015-10-22 11:17:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-c58cb6f86fa1442d86075d44a2771016
+ 2015-10-22 11:18:27 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100221-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:18:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100224-5f342b3b21a249f29541ebf216712fd8
+ 2015-10-22 11:18:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100224-5f342b3b21a249f29541ebf216712fd8
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:57842
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:57842 => /127.0.0.1:5333)
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:57842 => /127.0.0.1:5333)
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-22 11:19:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-22 11:20:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 11:20:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 11:20:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100225-8c98974152af4901b7bbf4ed279df131
+ 2015-10-22 11:20:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100225-8c98974152af4901b7bbf4ed279df131
+ 2015-10-22 11:20:33 ERROR [com.jihuiduo.netproxy.server.ServerHandler] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-22 11:20:33 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:20:33 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-22 11:20:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100027
+ 2015-10-22 11:21:02 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 11:21:02 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 11:21:02
+ 2015-10-22 11:21:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100217-e52d2b78ca904824af834c4339c7146d
+ 2015-10-22 11:21:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100217-e52d2b78ca904824af834c4339c7146d
+ 2015-10-22 11:21:45 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:23:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100221-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:23:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:23:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51241
+ 2015-10-22 11:23:36 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000002: nio socket, server, /192.168.6.56:51241 => /192.168.3.4:5333)
+ 2015-10-22 11:23:36 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.56:51241 => /192.168.3.4:5333)
+ 2015-10-22 11:23:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:23:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:24:08 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100217-e52d2b78ca904824af834c4339c7146d
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51260
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/192.168.6.56:51241
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000003: nio socket, server, /192.168.6.56:51260 => /192.168.3.4:5333)
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.6.56:51260 => /192.168.3.4:5333)
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:24:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:24:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51272
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000004: nio socket, server, /192.168.6.56:51272 => /192.168.3.4:5333)
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /192.168.6.56:51272 => /192.168.3.4:5333)
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:25:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51278
+ 2015-10-22 11:25:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:25:19 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 11:25:20 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000005: nio socket, server, /192.168.6.56:51278 => /192.168.3.4:5333)
+ 2015-10-22 11:25:20 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000005: nio socket, server, /192.168.6.56:51278 => /192.168.3.4:5333)
+ 2015-10-22 11:25:20 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:20 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:25:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 11:27:08 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-e16e1830f8311d02625c5bbbc5d84aed
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51301
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000006: nio socket, server, /192.168.6.56:51301 => /192.168.3.4:5333)
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000006: nio socket, server, /192.168.6.56:51301 => /192.168.3.4:5333)
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:27:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:28:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51307
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000007: nio socket, server, /192.168.6.56:51307 => /192.168.3.4:5333)
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000007: nio socket, server, /192.168.6.56:51307 => /192.168.3.4:5333)
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:28:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:28:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:28:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:28:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100225-8c98974152af4901b7bbf4ed279df131
+ 2015-10-22 11:29:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-22 11:29:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-22 11:29:20 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 11:29:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100224-ee1c3c84ab6a40bc9545fcfe417b16cf
+ 2015-10-22 11:29:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100224-ee1c3c84ab6a40bc9545fcfe417b16cf
+ 2015-10-22 11:30:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:30:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51319
+ 2015-10-22 11:30:19 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:30:19 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:30:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 11:30:20 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000008: nio socket, server, /192.168.6.56:51319 => /192.168.3.4:5333)
+ 2015-10-22 11:30:20 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000008: nio socket, server, /192.168.6.56:51319 => /192.168.3.4:5333)
+ 2015-10-22 11:30:20 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:30:20 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 11:30:37
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:52494
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000002: nio socket, server, /192.168.6.56:52494 => /192.168.3.4:5333)
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.56:52494 => /192.168.3.4:5333)
+ 2015-10-22 11:30:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:30:40 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:52499
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/192.168.6.56:52494
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000003: nio socket, server, /192.168.6.56:52499 => /192.168.3.4:5333)
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.6.56:52499 => /192.168.3.4:5333)
+ 2015-10-22 11:30:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:31:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:31:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:31:59 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 11:32:07 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 11:32:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:32:26 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100226-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 11:32:47 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100226-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 11:34:08 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 11:34:13 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 11:34:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100225-8c98974152af4901b7bbf4ed279df131
+ 2015-10-22 11:34:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100225-8c98974152af4901b7bbf4ed279df131
+ 2015-10-22 11:34:52 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:34:52 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:34:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 11:35:05 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:35:05 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:52547
+ 2015-10-22 11:35:05 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000004: nio socket, server, /192.168.6.56:52547 => /192.168.3.4:5333)
+ 2015-10-22 11:35:06 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /192.168.6.56:52547 => /192.168.3.4:5333)
+ 2015-10-22 11:35:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:35:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:35:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:52565
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000005: nio socket, server, /192.168.6.56:52565 => /192.168.3.4:5333)
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000005: nio socket, server, /192.168.6.56:52565 => /192.168.3.4:5333)
+ 2015-10-22 11:35:47 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:36:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:36:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:36:43 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100217-e52d2b78ca904824af834c4339c7146d
+ 2015-10-22 11:37:41 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 11:37:41 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:37:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 11:38:14 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 11:38:14 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:52569
+ 2015-10-22 11:38:14 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000006: nio socket, server, /192.168.6.56:52569 => /192.168.3.4:5333)
+ 2015-10-22 11:38:14 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000006: nio socket, server, /192.168.6.56:52569 => /192.168.3.4:5333)
+ 2015-10-22 11:38:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:38:30 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 11:41:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100115-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-22 11:41:34 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 11:41:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100037-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-22 14:12:22 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 14:12:22
+ 2015-10-22 14:12:22 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 14:13:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:13:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-28fda0bd9e0e480b8a5b96fa1b7481f7
+ 2015-10-22 14:13:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51863
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000002: nio socket, server, /192.168.6.56:51863 => /192.168.3.4:5333)
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.56:51863 => /192.168.3.4:5333)
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:15:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:15:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:15:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:15:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100102
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51877
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000003: nio socket, server, /192.168.6.56:51877 => /192.168.3.4:5333)
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.6.56:51877 => /192.168.3.4:5333)
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:16:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:17:02 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:17:02 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:17:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:18 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:17:18 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51945
+ 2015-10-22 14:17:18 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000004: nio socket, server, /192.168.6.56:51945 => /192.168.3.4:5333)
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /192.168.6.56:51945 => /192.168.3.4:5333)
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:19 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:51951
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000005: nio socket, server, /192.168.6.56:51951 => /192.168.3.4:5333)
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000005: nio socket, server, /192.168.6.56:51951 => /192.168.3.4:5333)
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:17:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:18:43 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:18:43 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:18:43 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:19:05 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:19:05 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:52001
+ 2015-10-22 14:19:05 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000006: nio socket, server, /192.168.6.56:52001 => /192.168.3.4:5333)
+ 2015-10-22 14:19:05 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000006: nio socket, server, /192.168.6.56:52001 => /192.168.3.4:5333)
+ 2015-10-22 14:19:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:19:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:19:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:20:34 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 14:20:34
+ 2015-10-22 14:20:34 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 14:20:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:20:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:62517
+ 2015-10-22 14:20:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000002: nio socket, server, /192.168.6.56:62517 => /192.168.3.4:5333)
+ 2015-10-22 14:20:35 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.6.56:62517 => /192.168.3.4:5333)
+ 2015-10-22 14:20:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:20:40 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:20:40 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:20:40 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:20:41 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/192.168.6.56:62517
+ 2015-10-22 14:20:41 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:20:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:21:00 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:21:00 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:62565
+ 2015-10-22 14:21:00 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000003: nio socket, server, /192.168.6.56:62565 => /192.168.3.4:5333)
+ 2015-10-22 14:21:00 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.6.56:62565 => /192.168.3.4:5333)
+ 2015-10-22 14:21:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:21:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:21:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:21:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:21:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:21:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:21:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:21:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100225-8c98974152af4901b7bbf4ed279df131
+ 2015-10-22 14:21:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100226-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 14:21:54 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:21:54 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:62575
+ 2015-10-22 14:21:54 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:21:54 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:21:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:21:54 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000004: nio socket, server, /192.168.6.56:62575 => /192.168.3.4:5333)
+ 2015-10-22 14:21:55 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /192.168.6.56:62575 => /192.168.3.4:5333)
+ 2015-10-22 14:22:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:22:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:22:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:22:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:22:22 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:22:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:22:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:22:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:22:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-546a450c276d2937de132ea89fabfd86
+ 2015-10-22 14:23:56 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100228-ca5f81ed29f8470b9fdf530a0852d6d6
+ 2015-10-22 14:24:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100228-ca5f81ed29f8470b9fdf530a0852d6d6
+ 2015-10-22 14:24:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100228-ca5f81ed29f8470b9fdf530a0852d6d6
+ 2015-10-22 14:24:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100228
+ 2015-10-22 14:25:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:25:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:25:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100102
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:62586
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000005: nio socket, server, /192.168.6.56:62586 => /192.168.3.4:5333)
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000005: nio socket, server, /192.168.6.56:62586 => /192.168.3.4:5333)
+ 2015-10-22 14:25:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:25:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:25:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:25:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:26:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:02 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.6.56:62599
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100115
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：080e2d70a5b953559204f9716130a53b-(0x00000006: nio socket, server, /192.168.6.56:62599 => /192.168.3.4:5333)
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000006: nio socket, server, /192.168.6.56:62599 => /192.168.3.4:5333)
+ 2015-10-22 14:26:16 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:21 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:26:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 14:26:24 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-22 14:26:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:26:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:26:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100102
+ 2015-10-22 14:26:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-3b773181367aa906aa5f0f8cda45543a
+ 2015-10-22 14:27:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100030-67f0d603f4361cc46f474f183739c682
+ 2015-10-22 14:27:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100217-e52d2b78ca904824af834c4339c7146d
+ 2015-10-22 14:29:22 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100037-f76369943ec18fc96d7339a5018d1e82
+ 2015-10-22 14:29:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100226-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 14:29:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100226-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 14:29:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100226
+ 2015-10-22 14:29:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:29:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache去除旧关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 2015-10-22 14:29:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100102
+ 2015-10-22 15:15:36 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 15:15:36 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 15:15:36
+ 2015-10-22 15:15:36 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:15:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100231-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 15:15:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100231-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-22 15:15:57 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-22 15:16:46 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 15:16:46 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 15:16:46
+ 2015-10-22 15:16:46 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:17:07 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-22 15:17:37 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:17:58 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-22 15:18:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100027-9edc8c981db74d52a2ee0a77e8cb0845
+ 2015-10-22 15:18:29 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 15:18:29
+ 2015-10-22 15:18:29 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 15:18:29 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:18:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100027-9edc8c981db74d52a2ee0a77e8cb0845
+ 2015-10-22 15:19:16 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-22 15:19:16 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-22 15:19:16
+ 2015-10-22 15:19:16 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:19:25 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100027-9edc8c981db74d52a2ee0a77e8cb0845
+ 2015-10-22 15:19:37 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-22 15:19:42 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-22 15:19:42 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-22 15:19:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 15:19:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100115-080e2d70a5b953559204f9716130a53b
+ 2015-10-22 15:19:54 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-22 15:20:07 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:20:28 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-22 15:20:32 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100217-e52d2b78ca904824af834c4339c7146d
+ 2015-10-22 15:20:58 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-22 15:21:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100186-3b773181367aa906aa5f0f8cda45543a
+ 2015-10-22 15:21:19 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-22 15:21:37 INFO [com.jihuiduo.netproxy.cache.UserServerCache] UserServerCache用户与设备关系:100102-04ca0b8d84e81a385e57183ccf00597a
+ 

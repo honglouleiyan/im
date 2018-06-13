@@ -1,0 +1,365 @@
+2018-05-24 07:21:13 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-05-24 07:21:13 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-05-24 10:42:11 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-05-24 10:42:11 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-05-24 12:11:53 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-05-24 12:11:53 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-05-24 12:39:05 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-05-24 12:39:05 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/10.81.9.48:63975
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 10.81.9.48:63975
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000004: nio socket, server, /10.81.9.48:63975 => /10.81.9.48:9999)---
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 284 remaining : 284 position : 0 capacity : 2048
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 0D 0A 69 6F 2E 6F 70 65 6E 74 72 61 63 69 6E 67 2E 63 6F 6E 74 72 69 62 2E 77 65 62 2E 73 65 72 76 6C 65 74 2E 66 69 6C 74 65 72 2E 54 72 61 63 69 6E 67 46 69 6C 74 65 72 2E 61 63 74 69 76 65 53 70 61 6E 43 6F 6E 74 65 78 74 3A 20 62 65 64 34 34 37 32 38 62 63 66 66 39 31 37 65 3A 62 65 64 34 34 37 32 38 62 63 66 66 39 31 37 65 3A 30 3A 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 0D 0A 48 6F 73 74 3A 20 31 30 2E 38 31 2E 39 2E 34 38 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 0D 0A
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: bed44728bcff917e:bed44728bcff917e:0:1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: bed44728bcff917e:bed44728bcff917e:0:1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+null
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 185 byte[]长度 : 189
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 04:39:05 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 12:39:05 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 04:39:05 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 12:39:10 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-05-24 13:09:57 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000004: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 2018-05-24 14:25:43 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-05-24 14:25:43 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-05-24 14:53:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-05-24 14:53:34 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/10.81.9.48:49203
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000005: nio socket, server, /10.81.9.48:49203 => /10.81.9.48:9999)---
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 10.81.9.48:49203
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 359 remaining : 359 position : 0 capacity : 2048
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 0D 0A 69 6F 2E 6F 70 65 6E 74 72 61 63 69 6E 67 2E 63 6F 6E 74 72 69 62 2E 77 65 62 2E 73 65 72 76 6C 65 74 2E 66 69 6C 74 65 72 2E 54 72 61 63 69 6E 67 46 69 6C 74 65 72 2E 61 63 74 69 76 65 53 70 61 6E 43 6F 6E 74 65 78 74 3A 20 34 61 62 33 37 38 31 31 32 65 37 65 33 37 35 34 3A 34 61 62 33 37 38 31 31 32 65 37 65 33 37 35 34 3A 30 3A 31 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 34 61 62 33 37 38 31 31 32 65 37 65 33 37 35 34 25 33 41 34 32 39 34 33 39 63 39 35 64 63 62 62 62 31 30 25 33 41 34 61 62 33 37 38 31 31 32 65 37 65 33 37 35 34 25 33 41 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 0D 0A 48 6F 73 74 3A 20 31 30 2E 38 31 2E 39 2E 34 38 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 0D 0A
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: 4ab378112e7e3754:4ab378112e7e3754:0:1
+uber-trace-id: 4ab378112e7e3754%3A429439c95dcbbb10%3A4ab378112e7e3754%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: 4ab378112e7e3754:4ab378112e7e3754:0:1
+uber-trace-id: 4ab378112e7e3754%3A429439c95dcbbb10%3A4ab378112e7e3754%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+null
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 185 byte[]长度 : 189
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 06:53:34 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 14:53:34 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 06:53:34 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 14:53:39 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/10.81.9.48:49203
+ 2018-05-24 14:54:34 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000005: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 2018-05-24 15:10:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-05-24 15:10:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/10.81.9.48:49875
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 10.81.9.48:49875
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 359 remaining : 359 position : 0 capacity : 2048
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000006: nio socket, server, /10.81.9.48:49875 => /10.81.9.48:9999)---
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 0D 0A 69 6F 2E 6F 70 65 6E 74 72 61 63 69 6E 67 2E 63 6F 6E 74 72 69 62 2E 77 65 62 2E 73 65 72 76 6C 65 74 2E 66 69 6C 74 65 72 2E 54 72 61 63 69 6E 67 46 69 6C 74 65 72 2E 61 63 74 69 76 65 53 70 61 6E 43 6F 6E 74 65 78 74 3A 20 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 3A 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 3A 30 3A 31 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 25 33 41 39 34 65 30 35 65 34 62 66 65 33 65 37 30 38 37 25 33 41 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 25 33 41 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 0D 0A 48 6F 73 74 3A 20 31 30 2E 38 31 2E 39 2E 34 38 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 0D 0A
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: dfbbf834d616e03e:dfbbf834d616e03e:0:1
+uber-trace-id: dfbbf834d616e03e%3A94e05e4bfe3e7087%3Adfbbf834d616e03e%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: dfbbf834d616e03e:dfbbf834d616e03e:0:1
+uber-trace-id: dfbbf834d616e03e%3A94e05e4bfe3e7087%3Adfbbf834d616e03e%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+null
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 185 byte[]长度 : 189
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:10:38 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:10:38 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:10:38 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:10:43 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/10.81.9.48:49875
+ 2018-05-24 15:11:38 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000006: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 2018-05-24 15:13:54 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-05-24 15:13:54 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/10.81.9.48:49944
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000007: nio socket, server, /10.81.9.48:49944 => /10.81.9.48:9999)---
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 10.81.9.48:49944
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 353 remaining : 353 position : 0 capacity : 2048
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 0D 0A 69 6F 2E 6F 70 65 6E 74 72 61 63 69 6E 67 2E 63 6F 6E 74 72 69 62 2E 77 65 62 2E 73 65 72 76 6C 65 74 2E 66 69 6C 74 65 72 2E 54 72 61 63 69 6E 67 46 69 6C 74 65 72 2E 61 63 74 69 76 65 53 70 61 6E 43 6F 6E 74 65 78 74 3A 20 63 31 36 63 30 63 31 36 33 36 30 62 65 39 33 65 3A 63 31 36 63 30 63 31 36 33 36 30 62 65 39 33 65 3A 30 3A 31 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 3A 39 34 65 30 35 65 34 62 66 65 33 65 37 30 38 37 3A 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 3A 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 0D 0A 48 6F 73 74 3A 20 31 30 2E 38 31 2E 39 2E 34 38 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 0D 0A
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: c16c0c16360be93e:c16c0c16360be93e:0:1
+uber-trace-id: dfbbf834d616e03e:94e05e4bfe3e7087:dfbbf834d616e03e:1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: c16c0c16360be93e:c16c0c16360be93e:0:1
+uber-trace-id: dfbbf834d616e03e:94e05e4bfe3e7087:dfbbf834d616e03e:1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+null
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 185 byte[]长度 : 189
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:13:54 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:13:54 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:13:54 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:13:59 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-05-24 15:14:54 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000007: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 2018-05-24 15:17:07 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-05-24 15:17:07 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/10.81.9.48:50019
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000008: nio socket, server, /10.81.9.48:50019 => /10.81.9.48:9999)---
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 10.81.9.48:50019
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 359 remaining : 359 position : 0 capacity : 2048
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 0D 0A 69 6F 2E 6F 70 65 6E 74 72 61 63 69 6E 67 2E 63 6F 6E 74 72 69 62 2E 77 65 62 2E 73 65 72 76 6C 65 74 2E 66 69 6C 74 65 72 2E 54 72 61 63 69 6E 67 46 69 6C 74 65 72 2E 61 63 74 69 76 65 53 70 61 6E 43 6F 6E 74 65 78 74 3A 20 62 36 64 63 61 64 35 62 33 36 34 62 62 30 65 31 3A 62 36 64 63 61 64 35 62 33 36 34 62 62 30 65 31 3A 30 3A 31 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 25 33 41 39 34 65 30 35 65 34 62 66 65 33 65 37 30 38 37 25 33 41 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 25 33 41 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 0D 0A 48 6F 73 74 3A 20 31 30 2E 38 31 2E 39 2E 34 38 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 0D 0A
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: b6dcad5b364bb0e1:b6dcad5b364bb0e1:0:1
+uber-trace-id: dfbbf834d616e03e%3A94e05e4bfe3e7087%3Adfbbf834d616e03e%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: b6dcad5b364bb0e1:b6dcad5b364bb0e1:0:1
+uber-trace-id: dfbbf834d616e03e%3A94e05e4bfe3e7087%3Adfbbf834d616e03e%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+null
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 185 byte[]长度 : 189
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:17:07 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:17:07 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:17:07 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:17:12 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !/10.81.9.48:50019
+ 2018-05-24 15:18:07 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000008: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 2018-05-24 15:19:21 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2018-05-24 15:19:21 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(ClientConnect.java:39)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+2018-05-24 15:26:31 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2018-05-24 15:26:31 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/10.81.9.48:50201
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000009: nio socket, server, /10.81.9.48:50201 => /10.81.9.48:9999)---
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 10.81.9.48:50201
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 359 remaining : 359 position : 0 capacity : 2048
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 47 45 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 3A 20 74 65 78 74 2F 70 6C 61 69 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 2C 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 2A 2B 6A 73 6F 6E 2C 20 2A 2F 2A 0D 0A 69 6F 2E 6F 70 65 6E 74 72 61 63 69 6E 67 2E 63 6F 6E 74 72 69 62 2E 77 65 62 2E 73 65 72 76 6C 65 74 2E 66 69 6C 74 65 72 2E 54 72 61 63 69 6E 67 46 69 6C 74 65 72 2E 61 63 74 69 76 65 53 70 61 6E 43 6F 6E 74 65 78 74 3A 20 34 33 38 34 63 66 32 35 38 61 35 66 32 63 34 33 3A 34 33 38 34 63 66 32 35 38 61 35 66 32 63 34 33 3A 30 3A 31 0D 0A 75 62 65 72 2D 74 72 61 63 65 2D 69 64 3A 20 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 25 33 41 39 34 65 30 35 65 34 62 66 65 33 65 37 30 38 37 25 33 41 64 66 62 62 66 38 33 34 64 36 31 36 65 30 33 65 25 33 41 31 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E 38 2E 30 5F 31 36 31 0D 0A 48 6F 73 74 3A 20 31 30 2E 38 31 2E 39 2E 34 38 3A 39 39 39 39 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C 69 76 65 0D 0A 0D 0A
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: 4384cf258a5f2c43:4384cf258a5f2c43:0:1
+uber-trace-id: dfbbf834d616e03e%3A94e05e4bfe3e7087%3Adfbbf834d616e03e%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:GET /v1/device/auth HTTP/1.1
+Accept: text/plain, application/json, application/*+json, */*
+io.opentracing.contrib.web.servlet.filter.TracingFilter.activeSpanContext: 4384cf258a5f2c43:4384cf258a5f2c43:0:1
+uber-trace-id: dfbbf834d616e03e%3A94e05e4bfe3e7087%3Adfbbf834d616e03e%3A1
+User-Agent: Java/1.8.0_161
+Host: 10.81.9.48:9999
+Connection: keep-alive
+
+null
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   GET提交
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 185 byte[]长度 : 189
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:26:31 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:26:31 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Thu, 24 May 2018 07:26:31 GMT
+Content-Type: application/json
+Content-Length: 39
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"111","rcode":0,"rmsg":"成功"}
+ 2018-05-24 15:26:36 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2018-05-24 15:27:31 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] removed (0x00000009: nio socket, server, null => 0.0.0.0/0.0.0.0:9999)
+ 

@@ -1,0 +1,94 @@
+2015-09-22 10:46:28 非法消息
+com.jihuiduo.netproxy.server.filter.BasicIncomingPacket@de98793
+2015-09-22 10:46:28 非法消息
+com.jihuiduo.netproxy.server.filter.BasicIncomingPacket@5ec3cb07
+2015-09-22 10:46:44 非法消息
+com.jihuiduo.netproxy.server.filter.BasicIncomingPacket@186948d
+2015-09-22 11:17:06 非法消息
+com.jihuiduo.netproxy.server.filter.BasicIncomingPacket@19576987
+2015-09-22 14:52:01 userId为空:
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Tue, 22 Sep 2015 06:51:33 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+2015-09-22 14:52:08 未进行身份验证就发消息：
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Tue, 22 Sep 2015 06:51:33 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+2015-09-22 14:53:43 未进行身份验证就发消息：
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Tue, 22 Sep 2015 06:52:51 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+2015-09-22 14:56:34 未进行身份验证就发消息：
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Tue, 22 Sep 2015 06:56:07 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+2015-09-22 15:47:57 未进行身份验证就发消息：
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Tue, 22 Sep 2015 07:47:44 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+2015-09-22 17:40:27 deviceUid为空:
+POST /v2/device/auth?seq=7586CFE168FF4B0300000007&access_token=714a961cbfc44e5a9c0f28e77e77fc04 HTTP/1.1
+Host: 115.159.47.200:5333
+Date: Tue, 22 Sep 2015 09:40:36 GMT+00:00
+Content-Type: application/json
+Accept-Language: zh-CN
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 34
+
+{"network_type":1,"device_uid":""}
+2015-09-22 18:09:02 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Tue, 22 Sep 2015 10:10:26 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-22 18:09:02 消息处理异常:
+HTTP/1.1 500 Internal Server Error
+Date: Tue, 22 Sep 2015 10:10:26 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}

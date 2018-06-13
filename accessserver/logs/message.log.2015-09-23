@@ -1,0 +1,453 @@
+2015-09-23 09:51:33 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 01:52:59 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 09:51:33 消息处理异常:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 01:52:59 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:00:03 非法消息
+com.jihuiduo.netproxy.server.filter.BasicIncomingPacket@2d861958
+2015-09-23 10:02:20 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:03:47 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:20 消息处理异常:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:03:47 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:44 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:04:11 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:44 消息处理异常:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:04:11 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:44 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:04:11 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:44 消息处理异常:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:04:11 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:44 IM消息,body体无result节点:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:04:11 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:02:44 消息处理异常:
+HTTP/1.1 500 Internal Server Error
+Date: Wed, 23 Sep 2015 02:04:11 GMT
+Content-Type: text/html
+Content-Length: 48
+Connection: Close
+Server: IMServer
+
+{"errcode":500,"errmsg":"Internal Server Error"}
+2015-09-23 10:04:11 IM消息,body体无result节点:
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2015 02:05:38 GMT
+Content-Length: 125
+Content-Type: application/json
+Connection: Keep-Alive
+Server: IMServer
+
+{"seq":"06DCC982695BBD4F00000007","user_id":"100037/11","rcode":0,"rmsg":"OK","data":{"msg_id":["06DCC982695BBD4F00000007"]}}
+2015-09-23 10:04:11 消息处理异常:
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2015 02:05:38 GMT
+Content-Length: 125
+Content-Type: application/json
+Connection: Keep-Alive
+Server: IMServer
+
+{"seq":"06DCC982695BBD4F00000007","user_id":"100037/11","rcode":0,"rmsg":"OK","data":{"msg_id":["06DCC982695BBD4F00000007"]}}
+2015-09-23 10:04:11 IM消息,12323断线
+
+POST /v2/im?seq=06DCC982695BBD4F00000007&access_token=1c093c25532d4b2d86f5eb560f34529b HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:05:33 GMT+00:00
+Host: 115.159.47.200:5333
+Content-Length: 237
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"06DCC982695BBD4F00000007","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"1444","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442973938158}]}
+2015-09-23 10:10:22 100037断线
+
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2015 02:11:48 GMT
+Content-Length: 125
+Content-Type: application/json
+Connection: Keep-Alive
+Server: IMServer
+
+{"seq":"06DCC982695BBD4F00000007","user_id":"100037/11","rcode":0,"rmsg":"OK","data":{"msg_id":["06DCC982695BBD4F00000007"]}}
+2015-09-23 10:10:22 IM消息,12323断线
+
+POST /v2/im?seq=06DCC982695BBD4F00000007&access_token=1c093c25532d4b2d86f5eb560f34529b HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:11:43 GMT+00:00
+Host: 115.159.47.200:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"06DCC982695BBD4F00000007","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"147","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442974308707}]}
+2015-09-23 10:16:09 消息处理异常:
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2015 02:17:35 GMT
+Content-Length: 125
+Content-Type: application/json
+Connection: Keep-Alive
+Server: IMServer
+
+{"seq":"149AD1356930BE6D00000008","user_id":"100037/11","rcode":0,"rmsg":"OK","data":{"msg_id":["149AD1356930BE6D00000008"]}}
+2015-09-23 10:16:09 IM消息,12323断线
+
+POST /v2/im?seq=149AD1356930BE6D00000008&access_token=1c093c25532d4b2d86f5eb560f34529b HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:17:30 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 239
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"149AD1356930BE6D00000008","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"124376","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442974655642}]}
+2015-09-23 10:16:16 消息处理异常:
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2015 02:17:43 GMT
+Content-Length: 125
+Content-Type: application/json
+Connection: Keep-Alive
+Server: IMServer
+
+{"seq":"149AD1356930BE6D00000008","user_id":"100037/11","rcode":0,"rmsg":"OK","data":{"msg_id":["149AD1356930BE6D00000008"]}}
+2015-09-23 10:16:17 IM消息,12323断线
+
+POST /v2/im?seq=149AD1356930BE6D00000008&access_token=1c093c25532d4b2d86f5eb560f34529b HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:17:38 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"149AD1356930BE6D00000008","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"444","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442974663670}]}
+2015-09-23 10:17:10 IM消息,12323断线
+
+POST /v2/im?seq=149AD1356930BE6D00000008&access_token=1c093c25532d4b2d86f5eb560f34529b HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:18:32 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 238
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"149AD1356930BE6D00000008","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"78799","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442974717440}]}
+2015-09-23 10:18:21 IM消息,12323断线
+
+POST /v2/im?seq=149AD1356930BE6D00000008&access_token=1c093c25532d4b2d86f5eb560f34529b HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:19:42 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 239
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"149AD1356930BE6D00000008","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"464646","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442974787907}]}
+2015-09-23 10:28:33 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:29:55 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"123","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975400378}]}
+2015-09-23 10:28:33 消息处理异常:
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:29:55 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"123","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975400378}]}
+2015-09-23 10:28:52 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:30:13 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"456","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975418559}]}
+2015-09-23 10:28:52 消息处理异常:
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:30:13 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"456","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975418559}]}
+2015-09-23 10:32:47 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:33:54 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"789","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975639952}]}
+2015-09-23 10:32:48 消息处理异常:
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:33:54 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 236
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"789","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975639952}]}
+2015-09-23 10:32:50 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:34:05 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 237
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"7085","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975655624}]}
+2015-09-23 10:32:50 消息处理异常:
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:34:05 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 237
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"7085","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975655624}]}
+2015-09-23 10:38:27 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=3C6199BE66D4B06C00000002&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:38:18 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 237
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3C6199BE66D4B06C00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"0000","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442975903164}]}
+2015-09-23 10:45:33 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=47A4A50B5CA1478000000005&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:46:55 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 237
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"47A4A50B5CA1478000000005","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"4646","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442976420240}]}
+2015-09-23 10:45:37 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=47A4A50B5CA1478000000006&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:46:58 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 239
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"47A4A50B5CA1478000000006","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"464664","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442976423826}]}
+2015-09-23 10:53:00 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=52DFE15C4F68490E00000009&access_token=715ea6f02a9b411e841bac2eeab6bf45 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 02:54:21 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 240
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"52DFE15C4F68490E00000009","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"4546464","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442976866581}]}
+2015-09-23 11:45:15 用户找不到登录的设备,估计未登录：
+HTTP/1.1 200 OK
+Date: Wed, 23 Sep 2015 03:46:41 GMT
+Content-Length: 122
+Content-Type: application/json
+Connection: Keep-Alive
+Server: IMServer
+
+{"seq":"3BD3F346AC194CBC00000008","user_id":"100031","rcode":0,"rmsg":"OK","data":{"msg_id":["21BAA50D03A1B6FE00000001"]}}
+2015-09-23 13:54:34 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=373FD1C02A8748A000000001 HTTP/1.1
+Date: Wed, 23 Sep 2015 05:55:37 GMT
+Content-Length: 1041
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"142358E2F301B5A500000001","user_id":"100031","dst_user_id":["100027"],"type":1001,"message":"bang6052申请了你的帮帮\u0027string\u0027","options":{"apply":{"apply_id":173.0,"bang_id":727.0,"apply_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"message":"string","apply_time":1.442987649825E12,"apply_status":0.0,"is_delete":0.0,"create_time":1.442987649825E12,"create_user":100031.0,"update_time":1.442987649825E12,"update_user":100031.0},"bang_info":{"bang_id":727.0,"title":"string","content":"string","reward":"string","money":0.0,"end_time":1.443686159E12,"bang_status":2.0,"wait_num":9.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.442976801E12,"create_time":1.442976801E12,"create_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"update_time":1.442976818E12,"update_user":100027.0,"images":["string"]}}}]}
+2015-09-23 13:56:27 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=373FD1C02A8748A000000002 HTTP/1.1
+Date: Wed, 23 Sep 2015 05:57:08 GMT
+Content-Length: 1042
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"15502F9801F8BB5500000001","user_id":"100031","dst_user_id":["100027"],"type":1001,"message":"bang6052申请了你的帮帮\u0027string\u0027","options":{"apply":{"apply_id":174.0,"bang_id":727.0,"apply_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"message":"string","apply_time":1.442987741339E12,"apply_status":0.0,"is_delete":0.0,"create_time":1.442987741339E12,"create_user":100031.0,"update_time":1.442987741339E12,"update_user":100031.0},"bang_info":{"bang_id":727.0,"title":"string","content":"string","reward":"string","money":0.0,"end_time":1.443686159E12,"bang_status":2.0,"wait_num":10.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.442976801E12,"create_time":1.442976801E12,"create_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"update_time":1.442976818E12,"update_user":100027.0,"images":["string"]}}}]}
+2015-09-23 14:01:57 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=373FD1C02A8748A000000003 HTTP/1.1
+Date: Wed, 23 Sep 2015 06:03:24 GMT
+Content-Length: 1042
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"088C13A4EA65B3FA00000001","user_id":"100031","dst_user_id":["100037"],"type":1001,"message":"bang6052申请了你的帮帮\u0027龙伟\u0027","options":{"apply":{"apply_id":175.0,"bang_id":728.0,"apply_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"message":"string","apply_time":1.442988116502E12,"apply_status":0.0,"is_delete":0.0,"create_time":1.442988116502E12,"create_user":100031.0,"update_time":1.442988116502E12,"update_user":100031.0},"bang_info":{"bang_id":728.0,"title":"龙伟","content":"龙伟","reward":"一周morning call","money":0.0,"end_time":1.537632E12,"bang_status":2.0,"wait_num":1.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.442988152E12,"create_time":1.442988152E12,"create_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"update_time":1.442988152E12,"update_user":100037.0,"images":[]}}}]}
+2015-09-23 14:05:06 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=24D28276651741CB00000002&access_token=b9e8249ec6bb41d6b6ad6b6ef57ad7c2 HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 06:06:25 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 238
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"24D28276651741CB00000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"46464","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442988390496}]}
+2015-09-23 14:05:24 消息处理异常:
+POST /v2/im?seq=373FD1C02A8748A000000005 HTTP/1.1
+Date: Wed, 23 Sep 2015 06:06:42 GMT
+Content-Length: 1039
+User-Agent: IMServer
+Connection: Keep-Alive
+Content-Type: application/json
+Server: IMServer
+
+{"message_info":[{"msg_id":"1E91A19E2B46B1FB00000001","user_id":"100031","dst_user_id":["100037"],"type":1001,"message":"bang6052申请了你的帮帮\u0027龙伟\u0027","options":{"apply":{"apply_id":177.0,"bang_id":728.0,"apply_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"message":"string","apply_time":1.44298831452E12,"apply_status":0.0,"is_delete":0.0,"create_time":1.44298831452E12,"create_user":100031.0,"update_time":1.44298831452E12,"update_user":100031.0},"bang_info":{"bang_id":728.0,"title":"龙伟","content":"龙伟","reward":"一周morning call","money":0.0,"end_time":1.537632E12,"bang_status":2.0,"wait_num":3.0,"comment_num":0.0,"is_delete":0.0,"issue_time":1.442988152E12,"create_time":1.442988152E12,"create_user":{"id":100031.0,"nick":"bang6052","head":"http://img3.imgtn.bdimg.com/it/u\u003d626413268,3422573149\u0026fm\u003d23\u0026gp\u003d0.jpg"},"update_time":1.442988152E12,"update_user":100037.0,"images":[]}}}]}
+2015-09-23 14:07:17 用户找不到登录的设备,估计未登录：
+POST /v2/im?seq=3A0200E38F99474000000002&access_token=e4dbb6db92d8482c835bd1d033e33d0c HTTP/1.1
+Accept-Language: zh-CN
+Date: Wed, 23 Sep 2015 06:08:36 GMT+00:00
+Host: 192.168.3.17:5333
+Content-Length: 234
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Connection: Keep-Alive
+Accept: */*
+Content-Type: application/json
+
+{"message_info":[{"msg_id":"3A0200E38F99474000000002","user_id":"100037/11","dst_user_id":["12323"],"type":1,"message":"1","att_type":1,"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1442988521197}]}

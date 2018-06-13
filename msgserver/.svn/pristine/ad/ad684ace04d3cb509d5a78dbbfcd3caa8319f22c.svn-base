@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="build/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="build/lib/commons-logging-1.0.3.jar"/>
+	<classpathentry kind="lib" path="build/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="build/lib/mina-core-2.0.9.jar" sourcepath="build/lib/src/apache-mina-2.0.9-src.zip"/>
+	<classpathentry kind="lib" path="build/lib/mina-filter-compression-2.0.9.jar"/>
+	<classpathentry kind="lib" path="build/lib/slf4j-api-1.7.7.jar" sourcepath="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="build/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="build/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="build/lib/jaxen.jar"/>
+	<classpathentry kind="lib" path="build/lib/proxool-0.9.1.jar"/>
+	<classpathentry kind="lib" path="build/lib/proxool-cglib.jar"/>
+	<classpathentry kind="lib" path="build/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="build/lib/jedis-2.1.0.jar"/>
+	<classpathentry kind="lib" path="build/lib/mina-http-2.0.9.jar" sourcepath="build/lib/src/apache-mina-2.0.9-src.zip"/>
+	<classpathentry kind="lib" path="build/lib/mina-example-2.0.9.jar" sourcepath="build/lib/src/apache-mina-2.0.9-src.zip"/>
+	<classpathentry kind="lib" path="build/lib/JavaPNS_2.2.jar"/>
+	<classpathentry kind="lib" path="build/lib/jpush-client-3.2.3.jar"/>
+	<classpathentry kind="lib" path="build/lib/bcprov-jdk16-145.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-aop-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-beans-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-context-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-core-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-data-redis-1.4.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-expression-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-tx-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/spring-jms-4.1.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="build/lib/activemq-all-5.11.1.jar"/>
+	<classpathentry kind="lib" path="build/lib/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

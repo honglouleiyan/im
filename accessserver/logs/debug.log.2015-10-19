@@ -1,0 +1,1607 @@
+2015-10-19 15:23:06 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 15:23:06 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:23:06 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 15:23:06
+ 2015-10-19 15:23:08 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:23:12 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 15:23:12 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 15:23:12
+ 2015-10-19 15:23:12 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:23:13 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:23:43 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:23:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-0cb246dc911043ca9fa401a28cbf54f4
+ 2015-10-19 15:23:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-0cb246dc911043ca9fa401a28cbf54f4
+ 2015-10-19 15:23:44 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:24:14 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100031-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:24:14 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:24:15 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:24:17 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-19 15:24:45 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:24:46 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:25:11 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 15:25:11
+ 2015-10-19 15:25:11 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 15:25:11 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:25:12 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:25:29 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 15:25:29 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 15:25:29
+ 2015-10-19 15:25:29 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:25:30 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:26:00 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:26:01 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:26:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-19 15:26:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:26:31 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:26:31 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:26:32 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:26:49 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:27:02 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:27:03 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:27:18 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-19 15:27:33 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100036-bcc93d27103e4a47b6d3b4339ff35c08
+ 2015-10-19 15:27:33 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:27:34 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:42:56 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 15:42:56 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 15:42:56
+ 2015-10-19 15:42:56 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:42:57 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:43:27 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:43:28 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:43:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-f5146d5cd42839ee990786f38a72e79f
+ 2015-10-19 15:43:47 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-3349fa79ce5441bc9ff93f2cf72f3fba
+ 2015-10-19 15:43:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-3349fa79ce5441bc9ff93f2cf72f3fba
+ 2015-10-19 15:43:52 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-3349fa79ce5441bc9ff93f2cf72f3fba
+ 2015-10-19 15:43:58 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:43:59 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:44:26 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-19 15:44:29 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:44:29 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-3349fa79ce5441bc9ff93f2cf72f3fba
+ 2015-10-19 15:44:30 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:47:02 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 15:47:02 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 15:47:02
+ 2015-10-19 15:47:02 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:47:03 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:47:33 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:47:34 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:47:47 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:47:51 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-19 15:47:53 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100111-4ded706e73f63f21c9f0e942b6265172
+ 2015-10-19 15:48:04 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:48:05 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:48:35 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:48:36 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:49:06 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:49:07 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:49:37 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:49:38 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:49:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100028-48ba0fea2736916df03af4fdae831aca
+ 2015-10-19 15:49:44 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:49:46 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-19 15:50:08 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:50:09 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:50:11 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:50:13 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:50:39 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:50:40 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:51:04 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-19 15:51:04 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/127.0.0.1:60614
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:60614
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 367 remaining : 367 position : 0 capacity : 2048
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 37 35 37 63 34 30 39 37 31 66 35 64 34 38 65 64 39 64 63 63 39 37 66 38 63 39 32 64 66 62 66 61 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 39 20 4F 63 74 20 32 30 31 35 20 30 37 3A 35 31 3A 30 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 36 36 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 64 65 76 69 63 65 5F 75 69 64 22 3A 22 35 37 39 65 38 30 31 37 39 33 61 65 34 38 30 62 38 35 64 66 63 64 31 32 37 63 30 34 35 33 34 63 22 2C 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 3A 31 7D
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 19 Oct 2015 07:51:04 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 127.0.0.1:60614
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 521 remaining : 521 position : 0 capacity : 2048
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 31 2F 69 6D 3F 73 65 71 3D 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 26 61 63 63 65 73 73 5F 74 6F 6B 65 6E 3D 31 63 33 33 66 36 33 64 33 30 33 34 34 32 31 33 39 62 36 34 30 32 38 61 34 34 33 36 65 32 36 63 20 48 54 54 50 2F 31 2E 31 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 4E 44 61 74 65 3A 20 4D 6F 6E 2C 20 31 39 20 4F 63 74 20 32 30 31 35 20 30 37 3A 35 31 3A 30 34 20 47 4D 54 0D 0A 48 6F 73 74 3A 20 31 31 35 2E 31 35 39 2E 34 37 2E 32 30 30 3A 35 33 33 33 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 32 32 38 0D 0A 53 65 72 76 65 72 3A 20 4E 65 74 50 72 6F 78 79 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 0D 0A 7B 22 6D 65 73 73 61 67 65 5F 69 6E 66 6F 22 3A 5B 7B 22 6D 73 67 5F 69 64 22 3A 22 31 35 43 36 33 43 39 41 34 39 41 31 42 36 30 39 30 30 30 30 30 32 39 39 22 2C 22 75 73 65 72 5F 69 64 22 3A 22 31 30 35 37 38 22 2C 22 74 79 70 65 22 3A 31 2C 22 6D 65 73 73 61 67 65 22 3A 22 E5 B9 B2 E5 87 80 E5 88 A9 E8 90 BD 22 2C 22 64 73 74 5F 75 73 65 72 5F 69 64 22 3A 5B 22 31 30 36 39 38 22 5D 2C 22 61 74 74 22 3A 5B 7B 22 6D 73 67 74 79 70 65 22 3A 31 2E 30 2C 22 74 6F 74 61 6C 74 69 6D 65 22 3A 22 30 22 7D 5D 2C 22 73 74 61 74 65 22 3A 30 2C 22 70 72 69 6F 72 69 74 79 22 3A 30 2C 22 6F 66 66 6C 69 6E 65 22 3A 30 2C 22 74 69 6D 65 22 3A 31 34 33 38 38 34 39 30 34 38 39 34 37 7D 5D 7D
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 19 Oct 2015 07:51:04 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /127.0.0.1:60614 => /127.0.0.1:5333)---
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/device/auth?seq=15C63C9A49A1B60900000299&access_token=757c40971f5d48ed9dcc97f8c92dfbfa HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 19 Oct 2015 07:51:04 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 66
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"device_uid":"579e801793ae480b85dfcd127c04534c","network_type":1}
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-19 15:51:04 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：579e801793ae480b85dfcd127c04534c-(0x00000002: nio socket, server, /127.0.0.1:60614 => /127.0.0.1:5333)
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 07:51:04 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-19 15:51:04 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /127.0.0.1:60614 => /127.0.0.1:5333)
+ 2015-10-19 15:51:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：579e801793ae480b85dfcd127c04534c,session:(0x00000002: nio socket, server, /127.0.0.1:60614 => /127.0.0.1:5333)
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v1/im?seq=15C63C9A49A1B60900000299&access_token=1c33f63d303442139b64028a4436e26c HTTP/1.1
+Accept-Language: zh-CNDate: Mon, 19 Oct 2015 07:51:04 GMT
+Host: 115.159.47.200:5333
+Content-Type: application/json
+Content-Length: 228
+Server: NetProxy
+Connection: Keep-Alive
+Accept: */*
+
+{"message_info":[{"msg_id":"15C63C9A49A1B60900000299","user_id":"10578","type":1,"message":"干净利落","dst_user_id":["10698"],"att":[{"msgtype":1.0,"totaltime":"0"}],"state":0,"priority":0,"offline":0,"time":1438849048947}]}
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] IM消息
+ 2015-10-19 15:51:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:10578-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] userId对于设备：userId=10578,device=579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:04 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 07:51:04 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"15C63C9A49A1B60900000299","rcode":0,"rmsg":"成功"}
+ 2015-10-19 15:51:10 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:51:11 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:51:15 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:28 ERROR [com.jihuiduo.netproxy.server.ServerHandler] 其他方法抛出异常:远程主机强迫关闭了一个现有的连接。
+ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311)
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:694)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67)
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-10-19 15:51:28 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-19 15:51:28 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:28 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100027
+ 2015-10-19 15:51:28 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100027
+ 2015-10-19 15:51:28 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:579e801793ae480b85dfcd127c04534c
+ 2015-10-19 15:51:41 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:51:42 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:52:12 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:52:13 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:52:43 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:52:44 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:53:14 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:53:15 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:53:45 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:53:46 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:54:04 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:54:16 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:54:17 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:54:47 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:54:48 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:55:05 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-7e32ed6ff18abf8fafc55db11fb6ea6a
+ 2015-10-19 15:55:07 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100026-c3de462129ed73606311f26a503edd1d
+ 2015-10-19 15:55:08 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100105-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:55:18 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:55:19 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:55:49 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:55:50 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:56:20 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:56:21 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:56:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-19 15:56:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.3.6:62066
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000003: nio socket, server, /192.168.3.6:62066 => /192.168.3.4:5333)---
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:62066
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 480 remaining : 480 position : 0 capacity : 2048
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 34 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 35 3A 35 38 3A 31 36 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 37 39 0D 0A 0D 0A 7B 0A 20 20 22 64 65 76 69 63 65 5F 75 69 64 22 20 3A 20 22 62 32 39 39 66 34 38 31 31 65 39 37 31 30 33 61 33 62 36 37 66 36 38 31 33 62 30 65 35 65 33 66 22 2C 0A 20 20 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 20 3A 20 22 30 22 0A 7D
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/device/auth?seq=C4FCFEC89B93CAA800000004 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 15:58:16 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/device/auth?seq=C4FCFEC89B93CAA800000004 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 15:58:16 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-19 15:56:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：b299f4811e97103a3b67f6813b0e5e3f-(0x00000003: nio socket, server, /192.168.3.6:62066 => /192.168.3.4:5333)
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 07:56:35 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA800000004","rcode":0,"rmsg":"成功"}
+ 2015-10-19 15:56:35 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000003: nio socket, server, /192.168.3.6:62066 => /192.168.3.4:5333)
+ 2015-10-19 15:56:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：b299f4811e97103a3b67f6813b0e5e3f,session:(0x00000003: nio socket, server, /192.168.3.6:62066 => /192.168.3.4:5333)
+ 2015-10-19 15:56:35 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 07:56:35 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA800000004","rcode":0,"rmsg":"成功"}
+ 2015-10-19 15:56:51 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:56:52 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:57:22 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:57:23 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:57:53 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:57:54 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:58:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 15:58:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 15:58:06 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-27454e7d4584601f9aee0ac20f76066c
+ 2015-10-19 15:58:07 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100027-27454e7d4584601f9aee0ac20f76066c
+ 2015-10-19 15:58:07 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100030-7e32ed6ff18abf8fafc55db11fb6ea6a
+ 2015-10-19 15:58:10 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100185-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:58:24 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:58:25 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:58:38 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100185-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:58:55 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:58:56 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:58:57 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100185-c00797125c073f97e4b7ed3351c65a7f
+ 2015-10-19 15:59:26 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:59:27 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 15:59:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] 连接空闲
+ 2015-10-19 15:59:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] one Clinet Disconnect !null
+ 2015-10-19 15:59:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] remove:设备=b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 15:59:35 INFO [com.jihuiduo.netproxy.cache.UserServerCache] remove100116
+ 2015-10-19 15:59:35 DEBUG [com.jihuiduo.netproxy.cache.ClientCache] remove100116
+ 2015-10-19 15:59:35 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 15:59:57 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 15:59:58 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:00:28 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:00:29 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:00:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-19 16:00:35 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.3.6:62123
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000004: nio socket, server, /192.168.3.6:62123 => /192.168.3.4:5333)---
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:62123
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 480 remaining : 480 position : 0 capacity : 2048
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 36 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 32 3A 31 36 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 37 39 0D 0A 0D 0A 7B 0A 20 20 22 64 65 76 69 63 65 5F 75 69 64 22 20 3A 20 22 62 32 39 39 66 34 38 31 31 65 39 37 31 30 33 61 33 62 36 37 66 36 38 31 33 62 30 65 35 65 33 66 22 2C 0A 20 20 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 20 3A 20 22 30 22 0A 7D
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/device/auth?seq=C4FCFEC89B93CAA800000006 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:02:16 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/device/auth?seq=C4FCFEC89B93CAA800000006 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:02:16 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-19 16:00:35 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：b299f4811e97103a3b67f6813b0e5e3f-(0x00000004: nio socket, server, /192.168.3.6:62123 => /192.168.3.4:5333)
+ 2015-10-19 16:00:35 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:00:36 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-19 16:00:36 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 08:00:36 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA800000006","rcode":0,"rmsg":"成功"}
+ 2015-10-19 16:00:36 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000004: nio socket, server, /192.168.3.6:62123 => /192.168.3.4:5333)
+ 2015-10-19 16:00:36 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:00:36 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：b299f4811e97103a3b67f6813b0e5e3f,session:(0x00000004: nio socket, server, /192.168.3.6:62123 => /192.168.3.4:5333)
+ 2015-10-19 16:00:36 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 08:00:36 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA800000006","rcode":0,"rmsg":"成功"}
+ 2015-10-19 16:00:59 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:01:00 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:62123
+ 2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 405 remaining : 405 position : 0 capacity : 2048
+ 2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 37 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 32 3A 34 36 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA800000007 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:02:46 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA800000007 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:02:46 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:01:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000004: nio socket, server, /192.168.3.6:62123 => /192.168.3.4:5333)
+ 2015-10-19 16:01:30 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:01:31 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:62123
+ 2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 405 remaining : 405 position : 0 capacity : 1024
+ 2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 38 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 33 3A 33 31 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA800000008 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:03:31 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA800000008 HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:03:31 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:01:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000004: nio socket, server, /192.168.3.6:62123 => /192.168.3.4:5333)
+ 2015-10-19 16:02:01 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:02:02 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:02:32 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:02:33 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:02:38 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 16:02:38 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 16:02:38
+ 2015-10-19 16:02:38 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:02:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-19 16:02:38 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.3.6:63925
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:63925
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 480 remaining : 480 position : 0 capacity : 2048
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 41 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 34 3A 31 39 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 37 39 0D 0A 0D 0A 7B 0A 20 20 22 64 65 76 69 63 65 5F 75 69 64 22 20 3A 20 22 62 32 39 39 66 34 38 31 31 65 39 37 31 30 33 61 33 62 36 37 66 36 38 31 33 62 30 65 35 65 33 66 22 2C 0A 20 20 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 20 3A 20 22 30 22 0A 7D
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/device/auth?seq=C4FCFEC89B93CAA80000000A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:04:19 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /192.168.3.6:63925 => /192.168.3.4:5333)---
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/device/auth?seq=C4FCFEC89B93CAA80000000A HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:04:19 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:02:38 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-19 16:02:39 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：b299f4811e97103a3b67f6813b0e5e3f-(0x00000002: nio socket, server, /192.168.3.6:63925 => /192.168.3.4:5333)
+ 2015-10-19 16:02:39 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:02:39 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-19 16:02:39 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 08:02:39 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA80000000A","rcode":0,"rmsg":"成功"}
+ 2015-10-19 16:02:39 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.3.6:63925 => /192.168.3.4:5333)
+ 2015-10-19 16:02:39 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:02:39 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：b299f4811e97103a3b67f6813b0e5e3f,session:(0x00000002: nio socket, server, /192.168.3.6:63925 => /192.168.3.4:5333)
+ 2015-10-19 16:02:39 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 08:02:39 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA80000000A","rcode":0,"rmsg":"成功"}
+ 2015-10-19 16:02:39 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:02:41 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:03:09 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:03:10 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:63925
+ 2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 405 remaining : 405 position : 0 capacity : 2048
+ 2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 42 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 35 3A 30 31 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:05:01 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000B HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:05:01 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:03:20 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000002: nio socket, server, /192.168.3.6:63925 => /192.168.3.4:5333)
+ 2015-10-19 16:03:40 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:03:41 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:63925
+ 2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 405 remaining : 405 position : 0 capacity : 1024
+ 2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 43 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 35 3A 34 36 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:05:46 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000C HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:05:46 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:04:05 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000002: nio socket, server, /192.168.3.6:63925 => /192.168.3.4:5333)
+ 2015-10-19 16:04:11 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:04:12 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.server.ServerManage] 启动监听 5333
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.start.ServerStart] ---启动消息服务---2015-10-19 16:04:29
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.server.ServerHandler] 新客户端连接
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.server.ServerHandler] enter sessionOpened/192.168.3.6:49212
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:49212
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 480 remaining : 480 position : 0 capacity : 2048
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 64 65 76 69 63 65 2F 61 75 74 68 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 44 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 36 3A 30 39 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 37 39 0D 0A 0D 0A 7B 0A 20 20 22 64 65 76 69 63 65 5F 75 69 64 22 20 3A 20 22 62 32 39 39 66 34 38 31 31 65 39 37 31 30 33 61 33 62 36 37 66 36 38 31 33 62 30 65 35 65 33 66 22 2C 0A 20 20 22 6E 65 74 77 6F 72 6B 5F 74 79 70 65 22 20 3A 20 22 30 22 0A 7D
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/device/auth?seq=C4FCFEC89B93CAA80000000D HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:06:09 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.cache.PreparatorySessionCache] (0x00000002: nio socket, server, /192.168.3.6:49212 => /192.168.3.4:5333)---
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/device/auth?seq=C4FCFEC89B93CAA80000000D HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:06:09 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 79
+
+{
+  "device_uid" : "b299f4811e97103a3b67f6813b0e5e3f",
+  "network_type" : "0"
+}
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] TCP长连接的建立，身份验证
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.cache.DeviceServerCache] 设备和session关系：b299f4811e97103a3b67f6813b0e5e3f-(0x00000002: nio socket, server, /192.168.3.6:49212 => /192.168.3.4:5333)
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.online.DeviceOnline] 连接管理缓存：DEVICE:b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 206 byte[]长度 : 210
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 08:04:29 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA80000000D","rcode":0,"rmsg":"成功"}
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.cache.PreparatorySessionCache] remove:(0x00000002: nio socket, server, /192.168.3.6:49212 => /192.168.3.4:5333)
+ 2015-10-19 16:04:29 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 设备：b299f4811e97103a3b67f6813b0e5e3f,session:(0x00000002: nio socket, server, /192.168.3.6:49212 => /192.168.3.4:5333)
+ 2015-10-19 16:04:29 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 200 OK
+Date: Mon, 19 Oct 2015 08:04:29 GMT
+Content-Type: application/json
+Content-Length: 60
+Connection: Keep-Alive
+Server: NetProxy
+
+{"seq":"C4FCFEC89B93CAA80000000D","rcode":0,"rmsg":"成功"}
+ 2015-10-19 16:04:30 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:04:50 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-b299f4811e97103a3b67f6813b0e5e3f
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:49212
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 405 remaining : 405 position : 0 capacity : 2048
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 45 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 36 3A 33 31 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:06:31 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000E HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:06:31 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:04:50 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000002: nio socket, server, /192.168.3.6:49212 => /192.168.3.4:5333)
+ 2015-10-19 16:05:00 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:05:00 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包属性, length : 254 byte[]长度 : 300
+ 2015-10-19 16:05:00 DEBUG [com.jihuiduo.netproxy.server.filter.TcpServerCodecEncoder] 当前发送的数据包内容 : 
+HTTP/1.1 401 Unauthorized
+Date: Mon, 19 Oct 2015 08:05:00 GMT
+Content-Type: application/json
+Content-Length: 144
+Connection: Close
+Server: NetProxy
+
+{"seq":"479634DBAFA1B25F00000001","user_id":"100116","rcode":401,"rmsg":"您的帮帮帐号已在其它地方登录，请注意帐号安全。"}
+ 2015-10-19 16:05:00 INFO [com.jihuiduo.netproxy.cache.UserServerCache] 用户与设备关系:100116-080e2d70a5b953559204f9716130a53b
+ 2015-10-19 16:05:00 DEBUG [com.jihuiduo.netproxy.server.ServerHandler] 信息已经传送给客户端:HTTP/1.1 401 Unauthorized
+Date: Mon, 19 Oct 2015 08:05:00 GMT
+Content-Type: application/json
+Content-Length: 144
+Connection: Close
+Server: NetProxy
+
+{"seq":"479634DBAFA1B25F00000001","user_id":"100116","rcode":401,"rmsg":"您的帮帮帐号已在其它地方登录，请注意帐号安全。"}
+ 2015-10-19 16:05:01 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:05:31 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:05:32 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 远程主机IP地址和端口号 : 192.168.3.6:49212
+ 2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到数据包属性, limit : 405 remaining : 405 position : 0 capacity : 1024
+ 2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] 当前收到的数据包内容 : 50 4F 53 54 20 2F 76 32 2F 69 6D 2F 68 65 61 72 74 62 65 61 74 3F 73 65 71 3D 43 34 46 43 46 45 43 38 39 42 39 33 43 41 41 38 30 30 30 30 30 30 30 46 20 48 54 54 50 2F 31 2E 31 0D 0A 48 6F 73 74 3A 31 39 32 2E 31 36 38 2E 33 2E 34 3A 35 33 33 33 0D 0A 44 61 74 65 3A 20 32 30 31 35 2D 31 30 2D 31 39 20 31 36 3A 30 37 3A 31 36 20 47 4D 54 2B 38 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6A 73 6F 6E 0D 0A 41 63 63 65 70 74 2D 4C 61 6E 67 75 61 67 65 3A 20 7A 68 2D 43 48 0D 0A 41 63 63 65 70 74 2D 45 6E 63 6F 64 69 6E 67 3A 20 67 7A 69 70 0D 0A 55 73 65 72 2D 41 67 65 6E 74 3A 20 4D 6F 7A 69 6C 6C 61 2F 35 2E 30 20 28 4C 69 6E 75 78 3B 20 55 3B 20 41 6E 64 72 6F 69 64 20 34 2E 34 2E 34 3B 20 7A 68 2D 63 6E 3B 20 4D 49 20 33 20 42 75 69 6C 64 2F 4B 54 55 38 34 50 29 20 41 70 70 6C 65 57 65 62 4B 69 74 2F 35 33 33 2E 31 20 28 4B 48 54 4D 4C 2C 20 6C 69 6B 65 20 47 65 63 6B 6F 29 20 56 65 72 73 69 6F 6E 2F 34 2E 30 20 4D 6F 62 69 6C 65 20 53 61 66 61 72 69 2F 35 33 33 2E 31 0D 0A 41 63 63 65 70 74 3A 20 2A 2F 2A 0D 0A 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 4B 65 65 70 2D 41 6C 69 76 65 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 34 0D 0A 0D 0A 7B 0A 0A 7D
+ 2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerManage] *****对收到的二进制数据进行解码***** : 
+POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:07:16 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 收到APP的消息:POST /v2/im/heartbeat?seq=C4FCFEC89B93CAA80000000F HTTP/1.1
+Host:192.168.3.4:5333
+Date: 2015-10-19 16:07:16 GMT+8
+Content-Type: application/json
+Accept-Language: zh-CH
+Accept-Encoding: gzip
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; MI 3 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept: */*
+Connection: Keep-Alive
+Content-Length: 4
+
+{
+
+}
+ 2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] HTTP请求   POST提交
+ 2015-10-19 16:05:35 DEBUG [com.jihuiduo.netproxy.server.ServerMsgHandler] 心跳，不处理业务:(0x00000002: nio socket, server, /192.168.3.6:49212 => /192.168.3.4:5333)
+ 2015-10-19 16:06:02 INFO [com.jihuiduo.netproxy.clientim.ClientConnect] 创建Im连接
+ 2015-10-19 16:06:03 ERROR [com.jihuiduo.netproxy.clientim.ClientConnect] 连接IM服务器异常
+ org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at com.jihuiduo.netproxy.clientim.ClientConnect.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:47)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:459)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$700(AbstractPollingIoConnector.java:65)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:527)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
